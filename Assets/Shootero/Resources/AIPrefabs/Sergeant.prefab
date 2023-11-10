@@ -1,0 +1,498 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5875440219272692383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5875440219272692380}
+  m_Layer: 31
+  m_Name: Barrel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5875440219272692380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5875440219272692383}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.49, z: 0.81}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6192856569541107733}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6192856569541107730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6192856569541107733}
+  - component: {fileID: 6192856569541107739}
+  - component: {fileID: 6192856569541107735}
+  - component: {fileID: 6192856569541107734}
+  - component: {fileID: 6192856569541107732}
+  - component: {fileID: 6530351327977275510}
+  - component: {fileID: 6530351327977275509}
+  m_Layer: 31
+  m_Name: Sergeant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6192856569541107733
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192856569541107730}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -8.05, y: 0, z: 10.4506645}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5875440219272692380}
+  - {fileID: 456455848}
+  - {fileID: 7996253288171866411}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &6192856569541107739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192856569541107730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f972e53bf4905d24f8cb94aeedd5ef6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shooter: {fileID: 6192856569541107735}
+  shooter2: {fileID: 0}
+  shooter3: {fileID: 0}
+  shooter4: {fileID: 0}
+  OffsetHUD: {x: 0, y: 2, z: 0.8}
+  visualGO: {fileID: 0}
+  UnitName: Sergeant
+  teamUnit:
+    currentCryptoKey: 1305378484
+    hiddenValue: 1305378486
+    inited: 1
+    fakeValue: 2
+    fakeValueActive: 1
+  isNoneTargetUnit:
+    currentCryptoKey: 168
+    hiddenValue: 29
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  isBossUnit:
+    currentCryptoKey: 146
+    hiddenValue: 39
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  isAirUnit:
+    currentCryptoKey: 115
+    hiddenValue: 198
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  isMelee:
+    currentCryptoKey: 105
+    hiddenValue: 220
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  doNotApplyPopoModifier:
+    currentCryptoKey: 170
+    hiddenValue: 31
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  doNotApplyKhongLoModifier:
+    currentCryptoKey: 112
+    hiddenValue: 197
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  doNotApplyDeathrateModifier:
+    currentCryptoKey: 189
+    hiddenValue: 8
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  SpawnObjOnDie: {fileID: 0}
+  SpawnObjOnDieCount: 0
+  DontHaveDrop: 0
+  HideWhenDie: []
+  m_Collider: {fileID: 0}
+--- !u!114 &6192856569541107735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192856569541107730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bce57b98a6a30f742a397625665a99d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualGO: {fileID: 0}
+  danPrefab: {fileID: 4020799836050030352, guid: e3d48d2c3d446b341a7c0d093e61218a,
+    type: 3}
+  barrels:
+  - {fileID: 5875440219272692380}
+  atkSpd:
+    migratedVersion: 
+    currentCryptoKey: 1688273288
+    hiddenValue: 1526800776
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 1
+    fakeValueActive: 1
+  dmg:
+    currentCryptoKey: 6197767971158282847
+    hiddenValue: 6197767971158282837
+    inited: 1
+    fakeValue: 10
+    fakeValueActive: 1
+  projSpd:
+    migratedVersion: 
+    currentCryptoKey: 1076464711
+    hiddenValue: 25954631
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 10
+    fakeValueActive: 1
+  aimSpd:
+    migratedVersion: 
+    currentCryptoKey: 2067008144
+    hiddenValue: 940212368
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 360
+    fakeValueActive: 1
+  knockBackDis:
+    migratedVersion: 
+    currentCryptoKey: 1983673890
+    hiddenValue: 1987460130
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  delayActiveDmg:
+    migratedVersion: 
+    currentCryptoKey: 1107168262
+    hiddenValue: 2140530588
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 0.15
+    fakeValueActive: 1
+  attackAnimTime:
+    migratedVersion: 
+    currentCryptoKey: 1464043315
+    hiddenValue: 1753727795
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 1
+    fakeValueActive: 1
+  shootAllBarrels:
+    currentCryptoKey: 192
+    hiddenValue: 21
+    inited: 1
+    fakeValue: 1
+    fakeValueActive: 1
+  isMeleeWeapon:
+    currentCryptoKey: 174
+    hiddenValue: 27
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  instantiateDanMelee:
+    currentCryptoKey: 221
+    hiddenValue: 104
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  FlashObject: {fileID: 0}
+  FlashPos: {fileID: 0}
+  shootAllBarrelsIgnoreBarrelList: []
+  CanApplyKhongLoModifier: 1
+  DelayFireSound: 0
+  IgnoreAtkDown: 0
+  FireOnOwnerDie: 0
+  InitOnAwake: 1
+--- !u!114 &6192856569541107734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192856569541107730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  pauseWhenDisabled: 0
+  restartWhenComplete: 1
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 11400000, guid: 8bde22617e54b524ea59924c20c427f9, type: 2}
+  mBehaviorSource:
+    behaviorName: SergeantBehavior
+    behaviorDescription: 
+    mTaskData:
+      types:
+      - BehaviorDesigner.Runtime.Tasks.EntryTask
+      - BehaviorDesigner.Runtime.Tasks.Sequence
+      - BehaviorDesigner.Runtime.Tasks.GetMainPlayer
+      - BehaviorDesigner.Runtime.Tasks.AIMoveRandomAroundTarget
+      - BehaviorDesigner.Runtime.Tasks.Wait
+      - BehaviorDesigner.Runtime.Tasks.BotFire
+      - BehaviorDesigner.Runtime.Tasks.Wait
+      parentIndex: ffffffff000000000100000001000000010000000100000001000000
+      startIndex: 07000000110000001c0000002a0000003a0000005400000065000000
+      variableStartIndex: 0000000004000000
+      JSONSerialization: 
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: f9be55564aaa52567707a1041af3e5d3f9be55564aaa52567707a1042944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f9012944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f9018690b4b22944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f9012895225c215478b2723f75b29f9cc3602944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f901d86b6262d12ab8b82216b5b84f730367618227548f1e06be2944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f901598f7293524ec8e9a339c5e973825867956c6dd48e2bc32adf16c02a81a8551003ac852ffc6adb854d56d8851d9f6b0315ab852f0e6adb855f55d8852f9e6b032944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f901d86b6262d12ab8b82216b5b84f7303673f0ed68e0fac5e58c022269c2944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f901598f7293524ec8e9a339c5e973825867956c6dd48e2bc32adf16c02a81a8551003ac852ffc6adb854d56d8851d9f6b0315ab852f0e6adb855f55d8852f9e6b03
+        startIndex: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000240000002500000026000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f00000030000000310000003200000033000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000420000004300000044000000450000004500000046000000470000004800000048000000490000004a0000004b0000004b0000004c0000004d0000004e0000004f00000050000000510000005200000053000000540000005500000056000000570000005800000058000000590000005a0000005b0000005c0000005d0000005e0000005f00000060000000610000006200000063000000640000006500000066000000670000006800000068000000690000006a0000006b0000006b0000006c0000006d0000006e0000006e0000006f0000007000000071000000710000007200000073000000
+        dataPosition: 00000000240000002f00000030000000340000005c0000006200000063000000670000006c0000006d0000006e000000760000007600000077000000780000007c00000080000000840000008c0000008d0000008e000000960000009600000097000000980000009c000000a0000000a4000000a8000000b7000000b8000000b9000000c1000000c1000000c2000000c3000000c7000000cb000000f3000000f9000000fa000000fe0000001a0100001b0100001c010000240100002401000025010000260100002a0100002e010000560100005c0100005d0100006101000065010000690100006d0100006e0100006f010000770100007701000078010000790100007d01000081010000a5010000a5010000a9010000cc010000cc010000cd010000f1010000f1010000f501000019020000190200001d02000021020000290200002a0200002b02000033020000330200003402000035020000390200003d020000650200006b0200006c020000700200007402000075020000790200007d0200007e0200007f020000870200008702000088020000890200008d02000091020000b5020000b5020000b9020000dc020000dc020000dd0200000103000001030000050300002903000029030000
+        unityObjects: []
+        byteData: 4265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617463757244697374616e636501000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c617965720100000000456e7472790100adbefec2323cdc41000000000000000000000100000053657175656e636501000200a0c1302d0343000000000000000000000000000002000000476574204d61696e20506c617965720100c6d6a1c336e93643000000000000000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c6179657201030000004149204d6f76652052616e646f6d2041726f756e64205461726765740100a01b05c394963843000000000000000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c6179657201000080400000204104000000576169740100653c54426dd13343000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000803f4265686176696f7244657369676e65722e52756e74696d652e536861726564426f6f6c004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000803f4265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000803f05000000426f7420466972650100397f3143ae223543000000000000000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c617965720100000000030000000106000000576169740100a3fe9143d4303a43000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f6174000040404265686176696f7244657369676e65722e52756e74696d652e536861726564426f6f6c004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000803f4265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000803f
+        byteDataArray: 4265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617463757244697374616e636501000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c617965720100000000456e7472790100adbefec2323cdc41000000000000000000000100000053657175656e636501000200a0c1302d0343000000000000000000000000000002000000476574204d61696e20506c617965720100c6d6a1c336e93643000000000000000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c6179657201030000004149204d6f76652052616e646f6d2041726f756e64205461726765740100a01b05c394963843000000000000000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c6179657201000080400000204104000000576169740100653c54426dd13343000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000803f4265686176696f7244657369676e65722e52756e74696d652e536861726564426f6f6c004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000803f4265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000803f05000000426f7420466972650100397f3143ae223543000000000000000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c617965720100000000030000000106000000576169740100a3fe9143d4303a43000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f6174000040404265686176696f7244657369676e65722e52756e74696d652e536861726564426f6f6c004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000803f4265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f61740000803f
+      Version: 1.5.12
+--- !u!195 &6192856569541107732
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192856569541107730}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1
+  m_Speed: 3.5
+  m_Acceleration: 50
+  avoidancePriority: 50
+  m_AngularSpeed: 360
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 1
+--- !u!136 &6530351327977275510
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192856569541107730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 8
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!54 &6530351327977275509
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6192856569541107730}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &7176134753842936342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7996253288171866411}
+  - component: {fileID: 3661303195934750622}
+  - component: {fileID: 1534367283469166777}
+  m_Layer: 27
+  m_Name: CollisionBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7996253288171866411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7176134753842936342}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6, y: 1, z: 0.6}
+  m_Children: []
+  m_Father: {fileID: 6192856569541107733}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &3661303195934750622
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7176134753842936342}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 8
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1534367283469166777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7176134753842936342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d85d4c962579e646b3ce938c6c566d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &456322106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6192856569541107733}
+    m_Modifications:
+    - target: {fileID: 100018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_Name
+      value: G_Champion_LV3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 7d2ebbbd30a58c9499c772ead1f7e561,
+        type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ed2f2076964112146a01a679fe29ed05, type: 3}
+--- !u!4 &456455848 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400018, guid: ed2f2076964112146a01a679fe29ed05,
+    type: 3}
+  m_PrefabInstance: {fileID: 456322106}
+  m_PrefabAsset: {fileID: 0}

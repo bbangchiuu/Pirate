@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: cf00352c9a82c7e41b13e8204162f5ff
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: jnt_hom
+    100004: jnt_nub
+    100006: jnt_open
+    100008: jnt_root
+    100010: Treasure_lv1_0_mesh
+    100012: Treasure_lv1_1_mesh
+    100014: Treasure_lv4_0_mesh
+    100016: Treasure_lv4_1_mesh
+    100018: pasted__Object164
+    100020: pasted__Object204
+    400000: //RootNode
+    400002: jnt_hom
+    400004: jnt_nub
+    400006: jnt_open
+    400008: jnt_root
+    400010: Treasure_lv1_0_mesh
+    400012: Treasure_lv1_1_mesh
+    400014: Treasure_lv4_0_mesh
+    400016: Treasure_lv4_1_mesh
+    400018: pasted__Object164
+    400020: pasted__Object204
+    4300000: Treasure_lv1_0_mesh
+    4300002: Treasure_lv1_1_mesh
+    4300004: Treasure_lv4_0_mesh
+    4300006: Treasure_lv4_1_mesh
+    4300008: pasted__Object164
+    4300010: pasted__Object204
+    7400000: close
+    7400002: opening
+    7400004: open
+    7400006: closing
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Treasure_lv1_0_mesh
+    13700002: Treasure_lv1_1_mesh
+    13700004: Treasure_lv4_0_mesh
+    13700006: Treasure_lv4_1_mesh
+    13700008: pasted__Object164
+    13700010: pasted__Object204
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__11 - Default
+    second: {fileID: 2100000, guid: 3dc7281f38c4f6b4cad29a7258a2d179, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: close
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_hom
+        weight: 1
+      - path: jnt_root/jnt_hom/jnt_nub
+        weight: 1
+      - path: jnt_root/jnt_hom/jnt_open
+        weight: 1
+      - path: Treasure_lv4_0_mesh
+        weight: 1
+      - path: Treasure_lv4_1_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: opening
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_hom
+        weight: 1
+      - path: jnt_root/jnt_hom/jnt_nub
+        weight: 1
+      - path: jnt_root/jnt_hom/jnt_open
+        weight: 1
+      - path: Treasure_lv4_0_mesh
+        weight: 1
+      - path: Treasure_lv4_1_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      firstFrame: 103
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_hom
+        weight: 1
+      - path: jnt_root/jnt_hom/jnt_nub
+        weight: 1
+      - path: jnt_root/jnt_hom/jnt_open
+        weight: 1
+      - path: Treasure_lv4_0_mesh
+        weight: 1
+      - path: Treasure_lv4_1_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: closing
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_hom
+        weight: 1
+      - path: jnt_root/jnt_hom/jnt_nub
+        weight: 1
+      - path: jnt_root/jnt_hom/jnt_open
+        weight: 1
+      - path: Treasure_lv4_0_mesh
+        weight: 1
+      - path: Treasure_lv4_1_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,84 @@
+{
+  "BaseGold" : 12300,
+  "BaseMaterial" : 20,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [61500, 61500],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 7000,
+	  "Quantity" : [20, 20],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [50, 50],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm15"
+  ],
+  "BossHunt": {
+	"C16Boss1": {
+      "Avatar": "RabbitBoss",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C16Boss2": {
+      "Avatar": "Jack",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+    "C16Boss3": {
+      "Avatar": "Nob",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	 "C16Boss4": {
+      "Avatar": "FlameSpirit",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "M_KeyLegend": 1
+    },
+    "Ruong1": {
+      "M_HeroStone": 200
+    },
+    "Ruong2": {
+      "M_VuKhi": 197
+    },
+    "Ruong3": {
+      "M_Mu": 203
+    },
+    "Ruong4": {
+      "Gold": 86000
+    }
+  }
+}

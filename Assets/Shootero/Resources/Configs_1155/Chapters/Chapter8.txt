@@ -1,0 +1,85 @@
+{
+  "BaseGold" : 4600,
+  "BaseMaterial" : 13,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [23000, 23000],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 4550,
+	  "Quantity" : [13, 13],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [32, 32],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm8"
+  ],
+  "BossHunt": {    
+	"C9Boss3": {
+      "Avatar": "Elsa",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C9Boss4": {
+      "Avatar": "VampireLord",
+      "Reward": {
+        "Gem": 120
+      }
+    },
+	"C9Boss1": {
+      "Avatar": "Tank",
+      "Reward": {
+        "Gem": 105
+      }
+    },
+	 "C9Boss2": {
+      "Avatar": "Goliath",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "M_VuKhi": 35,
+	  "M_OffHand": 35
+    },
+    "Ruong1": {
+      "Gold": 10999
+    },
+    "Ruong2": {
+      "Gem": 120
+    },
+    "Ruong3": {
+      "VK_Hawkeye": 1
+    },
+    "Ruong4": {
+      "M_KeyEpic": 1
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "BaseGold" : 3000,
+  "BaseMaterial" : 10,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 50
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [15000, 15000],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 3500,
+	  "Quantity" : [10, 10],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [25, 25],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm5"
+  ],
+  "BossHunt": {
+    "C5Boss1": {
+      "Avatar": "WildHog",
+      "Reward": {
+        "Gem": 105
+      }
+    },
+	 "C5Boss2": {
+      "Avatar": "Helicopter",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	"C5Boss3": {
+      "Avatar": "Biker",
+      "Reward": {
+        "Gem": 110
+      }
+    },
+	"C5Boss4": {
+      "Avatar": "Goliath",
+      "Reward": {
+        "Gem": 120
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "M_KeyEpic": 1
+    },
+    "Ruong1": {
+      "Gem": 70
+    },
+    "Ruong2": {
+      "M_OffHand": 20
+    },
+    "Ruong3": {
+      "OH_SteelGlove": 1
+    },
+    "Ruong4": {
+      "M_Giap": 20
+    },
+    "Ruong5": {
+      "Gem": 70
+    },
+    "Ruong6": {
+      "M_VuKhi": 25
+    }
+  }
+}

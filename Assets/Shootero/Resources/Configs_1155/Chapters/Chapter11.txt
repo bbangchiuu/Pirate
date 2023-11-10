@@ -1,0 +1,84 @@
+{
+  "BaseGold" : 7000,
+  "BaseMaterial" : 16,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [35000, 35000],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 5600,
+	  "Quantity" : [16, 16],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [40, 40],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm11"
+  ],
+  "BossHunt": {
+	"C12Boss3": {
+      "Avatar": "IceGiant",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C12Boss4": {
+      "Avatar": "FlameSpirit",
+      "Reward": {
+        "Gem": 120
+      }
+    },
+    "C12Boss2": {
+      "Avatar": "OrcKing",
+      "Reward": {
+        "Gem": 105
+      }
+    },
+	 "C12Boss1": {
+      "Avatar": "Infernal",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "M_KeyLegend": 1
+    },
+    "Ruong1": {
+      "Gem": 95
+    },
+    "Ruong2": {
+      "M_VuKhi": 55
+    },
+    "Ruong3": {
+      "Gold": 21000
+    },
+    "Ruong4": {
+      "Gem": 105
+    }
+  }
+}

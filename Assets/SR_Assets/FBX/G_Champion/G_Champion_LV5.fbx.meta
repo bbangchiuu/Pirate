@@ -1,0 +1,905 @@
+fileFormatVersion: 2
+guid: e87994be57b85c44b8d4cd0d03ae5b2e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: armor_L
+    100002: armor_R
+    100004: cape_1
+    100006: cape_2
+    100008: cape_3
+    100010: cape_4
+    100012: cape_5
+    100014: Champion_Items_LVL12
+    100016: clavicle_L
+    100018: clavicle_R
+    100020: elbow_L
+    100022: elbow_R
+    100024: foot_L
+    100026: foot_R
+    100028: foreArm_tiwst_L
+    100030: foreArm_tiwst_R
+    100032: //RootNode
+    100034: hand_L
+    100036: hand_R
+    100038: head
+    100040: headEnd
+    100042: knee_L
+    100044: knee_R
+    100046: neck
+    100048: Root
+    100050: shoulder_L
+    100052: shoulder_R
+    100054: skirtB_1
+    100056: skirtB_2
+    100058: skirtB_3
+    100060: skirtF_1
+    100062: skirtF_2
+    100064: skirtF_3
+    100066: spine_1
+    100068: spine_2
+    100070: spine_3
+    100072: spine_4
+    100074: spine_5
+    100076: thigh_L
+    100078: thigh_R
+    100080: toe_L
+    100082: toe_R
+    100084: toeEnd_L
+    100086: toeEnd_R
+    100088: weapon
+    100090: Champion_LV05_0_mesh
+    100092: jnt_armor_L
+    100094: jnt_armor_R
+    100096: jnt_cape_1
+    100098: jnt_cape_2
+    100100: jnt_cape_3
+    100102: jnt_cape_4
+    100104: jnt_cape_5
+    100106: jnt_clavicle_L
+    100108: jnt_clavicle_R
+    100110: jnt_elbow_L
+    100112: jnt_elbow_R
+    100114: jnt_foot_L
+    100116: jnt_foot_R
+    100118: jnt_foreArm_tiwst_L
+    100120: jnt_foreArm_tiwst_R
+    100122: jnt_hand_L
+    100124: jnt_hand_R
+    100126: jnt_head
+    100128: jnt_headEnd
+    100130: jnt_knee_L
+    100132: jnt_knee_R
+    100134: jnt_neck
+    100136: jnt_Root
+    100138: jnt_shoulder_L
+    100140: jnt_shoulder_R
+    100142: jnt_skirtB_1
+    100144: jnt_skirtB_2
+    100146: jnt_skirtB_3
+    100148: jnt_skirtF_1
+    100150: jnt_skirtF_2
+    100152: jnt_skirtF_3
+    100154: jnt_spine_1
+    100156: jnt_spine_2
+    100158: jnt_spine_3
+    100160: jnt_spine_4
+    100162: jnt_spine_5
+    100164: jnt_thigh_L
+    100166: jnt_thigh_R
+    100168: jnt_toe_L
+    100170: jnt_toe_R
+    100172: jnt_toeEnd_L
+    100174: jnt_toeEnd_R
+    100176: jnt_weapon
+    100178: Champion_LVL5
+    100180: jnt_index_1_L
+    100182: jnt_index_1_R
+    100184: jnt_index_2_L
+    100186: jnt_index_2_R
+    100188: jnt_index_3_L
+    100190: jnt_index_3_R
+    100192: jnt_indexEnd_L
+    100194: jnt_indexEnd_R
+    100196: jnt_mid_1_L
+    100198: jnt_mid_1_R
+    100200: jnt_mid_2_L
+    100202: jnt_mid_2_R
+    100204: jnt_mid_3_L
+    100206: jnt_mid_3_R
+    100208: jnt_midEnd_L
+    100210: jnt_midEnd_R
+    100212: jnt_ring_1_L
+    100214: jnt_ring_1_R
+    100216: jnt_ring_2_L
+    100218: jnt_ring_2_R
+    100220: jnt_ring_3_L
+    100222: jnt_ring_3_R
+    100224: jnt_ringEnd_L
+    100226: jnt_ringEnd_R
+    100228: jnt_thumb_1_L
+    100230: jnt_thumb_1_R
+    100232: jnt_thumb_2_L
+    100234: jnt_thumb_2_R
+    100236: jnt_thumb_3_L
+    100238: jnt_thumb_3_R
+    100240: jnt_thumbEnd_L
+    100242: jnt_thumbEnd_R
+    100244: left
+    400000: armor_L
+    400002: armor_R
+    400004: cape_1
+    400006: cape_2
+    400008: cape_3
+    400010: cape_4
+    400012: cape_5
+    400014: Champion_Items_LVL12
+    400016: clavicle_L
+    400018: clavicle_R
+    400020: elbow_L
+    400022: elbow_R
+    400024: foot_L
+    400026: foot_R
+    400028: foreArm_tiwst_L
+    400030: foreArm_tiwst_R
+    400032: //RootNode
+    400034: hand_L
+    400036: hand_R
+    400038: head
+    400040: headEnd
+    400042: knee_L
+    400044: knee_R
+    400046: neck
+    400048: Root
+    400050: shoulder_L
+    400052: shoulder_R
+    400054: skirtB_1
+    400056: skirtB_2
+    400058: skirtB_3
+    400060: skirtF_1
+    400062: skirtF_2
+    400064: skirtF_3
+    400066: spine_1
+    400068: spine_2
+    400070: spine_3
+    400072: spine_4
+    400074: spine_5
+    400076: thigh_L
+    400078: thigh_R
+    400080: toe_L
+    400082: toe_R
+    400084: toeEnd_L
+    400086: toeEnd_R
+    400088: weapon
+    400090: Champion_LV05_0_mesh
+    400092: jnt_armor_L
+    400094: jnt_armor_R
+    400096: jnt_cape_1
+    400098: jnt_cape_2
+    400100: jnt_cape_3
+    400102: jnt_cape_4
+    400104: jnt_cape_5
+    400106: jnt_clavicle_L
+    400108: jnt_clavicle_R
+    400110: jnt_elbow_L
+    400112: jnt_elbow_R
+    400114: jnt_foot_L
+    400116: jnt_foot_R
+    400118: jnt_foreArm_tiwst_L
+    400120: jnt_foreArm_tiwst_R
+    400122: jnt_hand_L
+    400124: jnt_hand_R
+    400126: jnt_head
+    400128: jnt_headEnd
+    400130: jnt_knee_L
+    400132: jnt_knee_R
+    400134: jnt_neck
+    400136: jnt_Root
+    400138: jnt_shoulder_L
+    400140: jnt_shoulder_R
+    400142: jnt_skirtB_1
+    400144: jnt_skirtB_2
+    400146: jnt_skirtB_3
+    400148: jnt_skirtF_1
+    400150: jnt_skirtF_2
+    400152: jnt_skirtF_3
+    400154: jnt_spine_1
+    400156: jnt_spine_2
+    400158: jnt_spine_3
+    400160: jnt_spine_4
+    400162: jnt_spine_5
+    400164: jnt_thigh_L
+    400166: jnt_thigh_R
+    400168: jnt_toe_L
+    400170: jnt_toe_R
+    400172: jnt_toeEnd_L
+    400174: jnt_toeEnd_R
+    400176: jnt_weapon
+    400178: Champion_LVL5
+    400180: jnt_index_1_L
+    400182: jnt_index_1_R
+    400184: jnt_index_2_L
+    400186: jnt_index_2_R
+    400188: jnt_index_3_L
+    400190: jnt_index_3_R
+    400192: jnt_indexEnd_L
+    400194: jnt_indexEnd_R
+    400196: jnt_mid_1_L
+    400198: jnt_mid_1_R
+    400200: jnt_mid_2_L
+    400202: jnt_mid_2_R
+    400204: jnt_mid_3_L
+    400206: jnt_mid_3_R
+    400208: jnt_midEnd_L
+    400210: jnt_midEnd_R
+    400212: jnt_ring_1_L
+    400214: jnt_ring_1_R
+    400216: jnt_ring_2_L
+    400218: jnt_ring_2_R
+    400220: jnt_ring_3_L
+    400222: jnt_ring_3_R
+    400224: jnt_ringEnd_L
+    400226: jnt_ringEnd_R
+    400228: jnt_thumb_1_L
+    400230: jnt_thumb_1_R
+    400232: jnt_thumb_2_L
+    400234: jnt_thumb_2_R
+    400236: jnt_thumb_3_L
+    400238: jnt_thumb_3_R
+    400240: jnt_thumbEnd_L
+    400242: jnt_thumbEnd_R
+    400244: left
+    4300000: Champion_Items_LVL12
+    4300002: Champion_LV05_0_mesh
+    4300004: Champion_LVL5
+    7400000: G_Champion_LV5_idle
+    7400002: G_Champion_LV5_attack
+    7400004: G_Champion_LV5_run
+    9500000: //RootNode
+    13700000: Champion_Items_LVL12
+    13700002: Champion_LV05_0_mesh
+    13700004: Champion_LVL5
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Champion_LVL02
+    second: {fileID: 2100000, guid: 2dfb39dc9930d6143826e96552b57a5c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: G_Champion_LV5_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Champion_LVL5
+        weight: 1
+      - path: jnt_Root
+        weight: 1
+      - path: jnt_Root/jnt_spine_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtB_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtB_1/jnt_skirtB_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtB_1/jnt_skirtB_2/jnt_skirtB_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtF_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtF_1/jnt_skirtF_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtF_1/jnt_skirtF_2/jnt_skirtF_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2/jnt_cape_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2/jnt_cape_3/jnt_cape_4
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2/jnt_cape_3/jnt_cape_4/jnt_cape_5
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_armor_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_foreArm_tiwst_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L/jnt_index_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L/jnt_index_2_L/jnt_index_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L/jnt_index_2_L/jnt_index_3_L/jnt_indexEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L/jnt_mid_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L/jnt_mid_2_L/jnt_mid_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L/jnt_mid_2_L/jnt_mid_3_L/jnt_midEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L/jnt_ring_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L/jnt_ring_2_L/jnt_ring_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L/jnt_ring_2_L/jnt_ring_3_L/jnt_ringEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L/jnt_thumb_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L/jnt_thumb_2_L/jnt_thumb_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L/jnt_thumb_2_L/jnt_thumb_3_L/jnt_thumbEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_armor_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_foreArm_tiwst_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R/jnt_index_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R/jnt_index_2_R/jnt_index_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R/jnt_index_2_R/jnt_index_3_R/jnt_indexEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R/jnt_mid_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R/jnt_mid_2_R/jnt_mid_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R/jnt_mid_2_R/jnt_mid_3_R/jnt_midEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R/jnt_ring_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R/jnt_ring_2_R/jnt_ring_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R/jnt_ring_2_R/jnt_ring_3_R/jnt_ringEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R/jnt_thumb_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R/jnt_thumb_2_R/jnt_thumb_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R/jnt_thumb_2_R/jnt_thumb_3_R/jnt_thumbEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_weapon
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head/jnt_headEnd
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L/jnt_foot_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L/jnt_foot_L/jnt_toe_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L/jnt_foot_L/jnt_toe_L/jnt_toeEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R/jnt_foot_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R/jnt_foot_R/jnt_toe_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R/jnt_foot_R/jnt_toe_R/jnt_toeEnd_R
+        weight: 1
+      - path: left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: G_Champion_LV5_attack
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Champion_LVL5
+        weight: 1
+      - path: jnt_Root
+        weight: 1
+      - path: jnt_Root/jnt_spine_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtB_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtB_1/jnt_skirtB_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtB_1/jnt_skirtB_2/jnt_skirtB_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtF_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtF_1/jnt_skirtF_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtF_1/jnt_skirtF_2/jnt_skirtF_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2/jnt_cape_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2/jnt_cape_3/jnt_cape_4
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2/jnt_cape_3/jnt_cape_4/jnt_cape_5
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_armor_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_foreArm_tiwst_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L/jnt_index_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L/jnt_index_2_L/jnt_index_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L/jnt_index_2_L/jnt_index_3_L/jnt_indexEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L/jnt_mid_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L/jnt_mid_2_L/jnt_mid_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L/jnt_mid_2_L/jnt_mid_3_L/jnt_midEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L/jnt_ring_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L/jnt_ring_2_L/jnt_ring_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L/jnt_ring_2_L/jnt_ring_3_L/jnt_ringEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L/jnt_thumb_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L/jnt_thumb_2_L/jnt_thumb_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L/jnt_thumb_2_L/jnt_thumb_3_L/jnt_thumbEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_armor_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_foreArm_tiwst_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R/jnt_index_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R/jnt_index_2_R/jnt_index_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R/jnt_index_2_R/jnt_index_3_R/jnt_indexEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R/jnt_mid_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R/jnt_mid_2_R/jnt_mid_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R/jnt_mid_2_R/jnt_mid_3_R/jnt_midEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R/jnt_ring_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R/jnt_ring_2_R/jnt_ring_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R/jnt_ring_2_R/jnt_ring_3_R/jnt_ringEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R/jnt_thumb_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R/jnt_thumb_2_R/jnt_thumb_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R/jnt_thumb_2_R/jnt_thumb_3_R/jnt_thumbEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_weapon
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head/jnt_headEnd
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L/jnt_foot_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L/jnt_foot_L/jnt_toe_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L/jnt_foot_L/jnt_toe_L/jnt_toeEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R/jnt_foot_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R/jnt_foot_R/jnt_toe_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R/jnt_foot_R/jnt_toe_R/jnt_toeEnd_R
+        weight: 1
+      - path: left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: G_Champion_LV5_run
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Champion_LVL5
+        weight: 1
+      - path: jnt_Root
+        weight: 1
+      - path: jnt_Root/jnt_spine_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtB_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtB_1/jnt_skirtB_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtB_1/jnt_skirtB_2/jnt_skirtB_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtF_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtF_1/jnt_skirtF_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_skirtF_1/jnt_skirtF_2/jnt_skirtF_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2/jnt_cape_3
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2/jnt_cape_3/jnt_cape_4
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_cape_1/jnt_cape_2/jnt_cape_3/jnt_cape_4/jnt_cape_5
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_armor_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_foreArm_tiwst_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L/jnt_index_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L/jnt_index_2_L/jnt_index_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_index_1_L/jnt_index_2_L/jnt_index_3_L/jnt_indexEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L/jnt_mid_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L/jnt_mid_2_L/jnt_mid_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L/jnt_mid_2_L/jnt_mid_3_L/jnt_midEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L/jnt_ring_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L/jnt_ring_2_L/jnt_ring_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_ring_1_L/jnt_ring_2_L/jnt_ring_3_L/jnt_ringEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L/jnt_thumb_2_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L/jnt_thumb_2_L/jnt_thumb_3_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_thumb_1_L/jnt_thumb_2_L/jnt_thumb_3_L/jnt_thumbEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_armor_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_foreArm_tiwst_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R/jnt_index_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R/jnt_index_2_R/jnt_index_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_index_1_R/jnt_index_2_R/jnt_index_3_R/jnt_indexEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R/jnt_mid_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R/jnt_mid_2_R/jnt_mid_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R/jnt_mid_2_R/jnt_mid_3_R/jnt_midEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R/jnt_ring_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R/jnt_ring_2_R/jnt_ring_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_ring_1_R/jnt_ring_2_R/jnt_ring_3_R/jnt_ringEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R/jnt_thumb_2_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R/jnt_thumb_2_R/jnt_thumb_3_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_thumb_1_R/jnt_thumb_2_R/jnt_thumb_3_R/jnt_thumbEnd_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_weapon
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head/jnt_headEnd
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L/jnt_foot_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L/jnt_foot_L/jnt_toe_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_L/jnt_knee_L/jnt_foot_L/jnt_toe_L/jnt_toeEnd_L
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R/jnt_foot_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R/jnt_foot_R/jnt_toe_R
+        weight: 1
+      - path: jnt_Root/jnt_spine_1/jnt_thigh_R/jnt_knee_R/jnt_foot_R/jnt_toe_R/jnt_toeEnd_R
+        weight: 1
+      - path: left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 1
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.044999998
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

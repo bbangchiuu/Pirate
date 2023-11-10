@@ -1,0 +1,84 @@
+{
+  "BaseGold" : 10700,
+  "BaseMaterial" : 19,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [53500, 53500],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 6650,
+	  "Quantity" : [19, 19],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [48, 48],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm14"
+  ],
+  "BossHunt": {
+	"C15Boss1": {
+      "Avatar": "Dragon",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C15Boss2": {
+      "Avatar": "IceGiant",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+    "C15Boss3": {
+      "Avatar": "King",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	 "C15Boss4": {
+      "Avatar": "SpiderQueen",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "Gem": 188
+    },
+    "Ruong1": {
+      "M_KeyLegend": 1
+    },
+    "Ruong2": {
+      "M_OffHand": 153
+    },
+    "Ruong3": {
+      "Gold": 54000
+    },
+    "Ruong4": {
+      "M_Giap": 162
+    }
+  }
+}

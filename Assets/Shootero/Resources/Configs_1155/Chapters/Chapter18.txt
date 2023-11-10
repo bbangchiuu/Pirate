@@ -1,0 +1,84 @@
+{
+  "BaseGold" : 18600,
+  "BaseMaterial" : 26,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [93000, 93000],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 32000,
+	  "Quantity" : [65, 65],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [130, 130],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm18"
+  ],
+  "BossHunt": {
+	"C19Boss1": {
+      "Avatar": "GoblinBoss",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C19Boss2": {
+      "Avatar": "Dragon",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+    "C19Boss3": {
+      "Avatar": "Jack",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	 "C19Boss4": {
+      "Avatar": "PopoDen",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "Gem": 172
+    },
+    "Ruong1": {
+      "M_Mu": 322
+    },
+    "Ruong2": {
+      "Gem": 117
+    },
+    "Ruong3": {
+	  "Gold": 214000
+    },
+    "Ruong4": {
+	  "M_KeyLegend": 1
+    }
+  }
+}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23f08d2ae4cba14087c1ed36193d82b, type: 3}
+  m_Name: SkeletonBehavior
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: SkeletonBehavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(137.3334,-46)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-10,120)"},"ID":1,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.ConditionalEvaluator","NodeData":{"Offset":"(-490,184.358978)"},"ID":2,"Name":"Conditional
+        Evaluator","Instant":true,"SharedBoolreevaluate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":true},"ConditionalconditionalTask":{"Type":"BehaviorDesigner.Runtime.Tasks.IsPlayerOutRangeAndNoneTakenDamage","SharedFloatcurDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"curDistance","IsShared":true,"SinglemValue":0},"SharedFloatrangeCheck":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":50},"SingletimeCheckTakenDmg":1000},"BooleangraphLabel":false,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(2.941412,113.529396)"},"ID":3,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-285.945862,126.486511)"},"ID":4,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":0.2},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":0.7}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityNavMeshAgent.Resume","NodeData":{"Offset":"(-147.034363,118.426216)"},"ID":5,"Name":"Resume","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":""}},{"Type":"BehaviorDesigner.Runtime.Tasks.AIRandomWander","NodeData":{"Offset":"(-0.3285427,128.155792)"},"ID":6,"Name":"AI
+        Random Wander","Instant":true,"SinglemaxTimeMoving":0,"SingleminRange":4,"SinglemaxRange":8,"BooleannavMeshUpdateRotation":true,"SingleDistanceFromNavmeshBorder":0},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(146.0842,133.356445)"},"ID":7,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":1.5}}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.ConditionalEvaluator","NodeData":{"Offset":"(0,170)"},"ID":8,"Name":"Conditional
+        Evaluator","Instant":true,"SharedBoolreevaluate":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":true},"ConditionalconditionalTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.Math.FloatComparison","Operationoperation":"LessThan","SharedFloatfloat1":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"curDistance","IsShared":true,"SinglemValue":0},"SharedFloatfloat2":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":4}},"BooleangraphLabel":false,"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(5.76171875,130.588257)"},"ID":9,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-166.675537,186.190735)"},"ID":10,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":0.5},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityNavMeshAgent.Stop","NodeData":{"Offset":"(-42.4816666,193.437241)"},"ID":11,"Name":"Stop","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":""}},{"Type":"BehaviorDesigner.Runtime.Tasks.GetMainPlayer","NodeData":{"Offset":"(90.868866,196.4245)"},"ID":12,"Name":"Get
+        Main Player","Instant":true,"SharedTransformplayer":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"player","IsShared":true},"SharedGameObjectplayerGO":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":""}},{"Type":"BehaviorDesigner.Runtime.Tasks.AimTarget","NodeData":{"Offset":"(223.701019,194.648987)"},"ID":13,"Name":"Aim
+        Target","Instant":true,"SharedTransformenemyTarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"player","IsShared":true},"Int32aimByShooter":1,"BooleanrunOnLateUpdate":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(349.9588,193.331589)"},"ID":14,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":0.4},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.BotFire","NodeData":{"Offset":"(474.396729,194.648987)"},"ID":15,"Name":"Bot
+        Fire","Instant":true,"Int32shooterId":1,"SharedTransformtarget":{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":""},"SinglemissAngle":0,"Int32count":1,"BooleanRandomCount":false,"Int32CountMin":1,"Int32CountMax":1,"BooleanshouldPlayAtkAnim":true,"BooleanaimTargetWhenFire":false,"BooleandoiSungActiveDan":false}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(240,160)"},"ID":16,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityNavMeshAgent.Resume","NodeData":{"Offset":"(-66.48649,141.08107)"},"ID":17,"Name":"Resume","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":""}},{"Type":"BehaviorDesigner.Runtime.Tasks.AIChasePlayer","NodeData":{"Offset":"(100,144.594574)"},"ID":18,"Name":"AI
+        Chase Player","Instant":true}]}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"curDistance","IsShared":true,"SinglemValue":0},{"Type":"BehaviorDesigner.Runtime.SharedTransform","Name":"player","IsShared":true}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects: []
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.7

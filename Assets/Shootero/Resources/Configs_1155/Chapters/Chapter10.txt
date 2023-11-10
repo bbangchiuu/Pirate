@@ -1,0 +1,86 @@
+{
+  "BaseGold" : 6100,
+  "BaseMaterial" : 15,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [30500, 30500],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 5250,
+	  "Quantity" : [15, 15],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [38, 38],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm10"
+  ],
+  "BossHunt": {
+	"C11Boss3": {
+      "Avatar": "LichKing",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C11Boss4": {
+      "Avatar": "Devil",
+      "Reward": {
+        "Gem": 120
+      }
+    },	
+    "C11Boss1": {
+      "Avatar": "MadDoc",
+      "Reward": {
+        "Gem": 105
+      }
+    },
+	 "C11Boss2": {
+      "Avatar": "Elsa",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "Gem": 135,
+	  "Gold": 13500
+    },
+    "Ruong1": {
+      "M_Giap": 30,
+	  "Gold": 15000
+    },
+    "Ruong2": {
+      "M_OffHand": 50
+    },
+    "Ruong3": {
+	  "Gem" : 95
+    },
+    "Ruong4": {
+      "M_Mu": 50
+    }
+  }
+}

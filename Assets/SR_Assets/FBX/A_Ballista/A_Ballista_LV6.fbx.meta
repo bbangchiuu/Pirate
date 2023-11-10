@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 6c86322183d23dd48a8902243a4d3cc2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: jnt_arrow
+    100004: jnt_base
+    100006: jnt_base2
+    100008: jnt_bow
+    100010: jnt_bow_L1
+    100012: jnt_bow_L2
+    100014: jnt_bow_L3
+    100016: jnt_bow_R1
+    100018: jnt_bow_R2
+    100020: jnt_bow_R3
+    100022: jnt_root
+    100024: jnt_string
+    100026: LV10
+    100028: polySurface108
+    100030: polySurface111
+    100032: polySurface130
+    100034: polySurface131
+    100036: jnt_rotate
+    100038: left
+    100040: pasted__Ballista_LV5_mesh
+    100042: pasted__Ballista_LV5_mesh1
+    400000: //RootNode
+    400002: jnt_arrow
+    400004: jnt_base
+    400006: jnt_base2
+    400008: jnt_bow
+    400010: jnt_bow_L1
+    400012: jnt_bow_L2
+    400014: jnt_bow_L3
+    400016: jnt_bow_R1
+    400018: jnt_bow_R2
+    400020: jnt_bow_R3
+    400022: jnt_root
+    400024: jnt_string
+    400026: LV10
+    400028: polySurface108
+    400030: polySurface111
+    400032: polySurface130
+    400034: polySurface131
+    400036: jnt_rotate
+    400038: left
+    400040: pasted__Ballista_LV5_mesh
+    400042: pasted__Ballista_LV5_mesh1
+    4300000: polySurface111
+    4300002: polySurface130
+    4300004: polySurface108
+    4300006: polySurface131
+    4300008: pasted__Ballista_LV5_mesh
+    4300010: pasted__Ballista_LV5_mesh1
+    7400000: A_Ballista_LV6_idle
+    7400002: A_Ballista_LV6_attack
+    9500000: //RootNode
+    13700000: polySurface108
+    13700002: polySurface111
+    13700004: polySurface130
+    13700006: polySurface131
+    13700008: pasted__Ballista_LV5_mesh
+    13700010: pasted__Ballista_LV5_mesh1
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'pasted__pasted__Material #29'
+    second: {fileID: 2100000, guid: e1f796d2c53c9424f9ed1131dc886ca8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: A_Ballista_LV6_idle
+      takeName: 
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_base
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_arrow
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_L1
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_L1/jnt_bow_L2
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_L1/jnt_bow_L2/jnt_bow_L3
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_R1
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_R1/jnt_bow_R2
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_R1/jnt_bow_R2/jnt_bow_R3
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_string
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pasted__Ballista_LV5_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: A_Ballista_LV6_attack
+      takeName: 
+      firstFrame: 40
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_base
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_arrow
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_L1
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_L1/jnt_bow_L2
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_L1/jnt_bow_L2/jnt_bow_L3
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_R1
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_R1/jnt_bow_R2
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_bow_R1/jnt_bow_R2/jnt_bow_R3
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_rotate/jnt_bow/jnt_string
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pasted__Ballista_LV5_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.6
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.036
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

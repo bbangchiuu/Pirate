@@ -1,0 +1,81 @@
+{
+  "BaseGold" : 14100,
+  "BaseMaterial" : 22,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [70500, 70500],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 19250,
+	  "Quantity" : [55, 55],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [110, 110],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm16"
+  ],
+  "BossHunt": {
+	"C17Boss1": {
+      "Avatar": "Usar",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C17Boss2": {
+      "Avatar": "Necrophos",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+    "C17Boss3": {
+      "Avatar": "LizardShaman",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	 "C17Boss4": {
+      "Avatar": "Drogo",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "Gem": 174
+    },
+    "Ruong1": {
+      "Gold": 126000
+    },
+    "Ruong2": {
+      "M_KeyLegend": 1
+    },
+    "Ruong3": {
+      "M_OffHand": 241
+    }
+  }
+}

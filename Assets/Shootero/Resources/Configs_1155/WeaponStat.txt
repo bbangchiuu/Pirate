@@ -1,0 +1,827 @@
+{
+  "Gun": {
+    "PROJ_N": "VK_Gun",
+    "DMG": 100,
+    "ATK_SPD": 1,
+    "PROJ_SPD": 50,
+    "ATK_RANGE": 25,
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          150,
+          200
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1.5,
+          2
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Bow": {
+    "PROJ_N": "VK_Bow",
+    "DMG": 250,
+    "ATK_SPD": 0.4,
+    "PROJ_SPD": 30,
+    "ATK_RANGE": 25,
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          300,
+          350
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          0.5,
+          0.6
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Crossbow": {
+    "PROJ_N": "VK_Crossbow",
+    "DMG": 200,
+    "ATK_SPD": 0.5,
+    "PROJ_SPD": 30,
+    "ATK_RANGE": 25,
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          250,
+          300
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1,
+          1.5
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Shuriken": {
+    "PROJ_N": "VK_Shuriken",
+    "DMG": 100,
+    "ATK_SPD": 0.7,
+    "PROJ_SPD": 70,
+    "ATK_RANGE": 7,
+    "listBuff": [
+      {
+        "Type": "MULTI_SHOT",
+        "Params": [
+          2
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          150,
+          200
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1.5,
+          2
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "DoubleGun": {
+    "PROJ_N": "VK_DoubleGun",
+    "DMG": 100,
+    "ATK_SPD": 1,
+    "PROJ_SPD": 15,
+    "KNOCK_BACK": 0,
+    "ATK_RANGE": 7,
+    "listBuff": [
+      {
+        "Type": "ADD_SHOT",
+        "Params": [
+          2
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          150,
+          200
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1.5,
+          2
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "TriplePod": {
+    "PROJ_N": "VK_TriplePod",
+    "DMG": 100,
+    "ATK_SPD": 1,
+    "PROJ_SPD": 10,
+    "KNOCK_BACK": 0,
+    "ATK_RANGE": 7,
+    "listBuff": [
+      {
+        "Type": "CHEO_SHOT",
+        "Params": [
+          30,
+          3
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          100,
+          150
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1.5,
+          2
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "WandBolt": {
+    "PROJ_N": "VK_WandBolt",
+    "DMG": 300,
+    "ATK_SPD": 0.5,
+    "PROJ_SPD": 10,
+    "ATK_RANGE": 7,
+    "KNOCK_BACK": 0,
+    "listBuff": [
+      {
+        "Type": "TRACKING_BULLET",
+        "Params": [
+          25
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          350,
+          400
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          0.75,
+          1
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Bazooka": {
+    "PROJ_N": "VK_Bazooka",
+    "DMG": 300,
+    "ATK_SPD": 0.5,
+    "PROJ_SPD": 30,
+    "ATK_RANGE": 7,
+    "KNOCK_BACK": 0,
+    "listBuff": [
+      {
+        "Type": "AOE",
+        "Params": [
+          3
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          350,
+          400
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          0.75,
+          1
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Magicball": {
+    "PROJ_N": "VK_Magicball",
+    "DMG": 100,
+    "ATK_SPD": 0.3,
+    "PROJ_SPD": 10,
+    "ATK_RANGE": 7,
+    "KNOCK_BACK": 0,
+    "listBuff": [
+      {
+        "Type": "SPLIT",
+        "Params": [
+          8,
+          100
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          150,
+          200
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          0.5,
+          0.75
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "HeatingMissile": {
+    "PROJ_N": "VK_HeatingMissile",
+    "DMG": 300,
+    "ATK_SPD": 1,
+    "PROJ_SPD": 40,
+    "ATK_RANGE": 7,
+    "KNOCK_BACK": 0,
+    "listBuff": [
+      {
+        "Type": "RICOCHET",
+        "Params": [
+          100,
+          3,
+          5
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          350,
+          400
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1.5,
+          2
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "StaffBolt": {
+    "PROJ_N": "VK_StaffBolt",
+    "DMG": 300,
+    "ATK_SPD": 0.5,
+    "PROJ_SPD": 5,
+    "KNOCK_BACK": 0,
+    "ATK_RANGE": 7,
+    "listBuff": [
+      {
+        "Type": "PIERCING",
+        "Params": [
+          100,
+          90
+        ]
+      },
+      {
+        "Type": "BIG_BULLET",
+        "Params": [
+          0
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          350,
+          400
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          0.75,
+          1
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Spear": {
+    "PROJ_N": "VK_Spear",
+    "DMG": 300,
+    "ATK_SPD": 0.4,
+    "PROJ_SPD": 20,
+    "KNOCK_BACK": 0,
+    "ATK_RANGE": 7,
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          350,
+          400
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1,
+          1.5
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Dagger": {
+    "PROJ_N": "VK_Dagger",
+    "DMG": 300,
+    "ATK_SPD": 1.5,
+    "PROJ_SPD": 30,
+    "KNOCK_BACK": 0,
+    "ATK_RANGE": 7,
+    "listBuff": [
+      {
+        "Type": "CHEO_SHOT",
+        "Params": [
+          20,
+          2
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          350,
+          400
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          2,
+          2.5
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Sword": {
+    "PROJ_N": "VK_Sword",
+    "DMG": 100,
+    "ATK_SPD": 1.5,
+    "PROJ_SPD": 30,
+    "ATK_RANGE": 7,
+    "KNOCK_BACK": 0,
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          150,
+          200
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          2,
+          2.5
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Warglaive": {
+    "PROJ_N": "VK_Warglaive",
+    "DMG": 150,
+    "ATK_SPD": 1,
+    "PROJ_SPD": 20,
+    "ATK_RANGE": 7,
+    "KNOCK_BACK": 0,
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          200,
+          250
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1.5,
+          2
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Boomerang": {
+    "PROJ_N": "VK_Boomerang",
+    "DMG": 150,
+    "ATK_SPD": 1,
+    "PROJ_SPD": 20,
+    "ATK_RANGE": 7,
+    "KNOCK_BACK": 0,
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          200,
+          250
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1.5,
+          2
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Shotgun": {
+    "PROJ_N": "VK_Shotgun",
+    "DMG": 350,
+    "ATK_SPD": 0.5,
+    "PROJ_SPD": 1,
+    "KNOCK_BACK": 0,
+    "ATK_RANGE": 7,
+    "listBuff": [
+      {
+        "Type": "BIG_BULLET_OVER_TIME",
+        "Params": [
+          3
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          400,
+          450
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1,
+          1.5
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Axe": {
+    "PROJ_N": "VK_Axe",
+    "DMG": 150,
+    "ATK_SPD": 0.3,
+    "PROJ_SPD": 10,
+    "KNOCK_BACK": 0,
+    "ATK_RANGE": 25,
+    "listBuff": [
+      {
+        "Type": "BIG_BULLET",
+        "Params": [
+          2,
+          0
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          200,
+          250
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          0.5,
+          0.8
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Stick": {
+    "PROJ_N": "VK_Stick",
+    "DMG": 150,
+    "ATK_SPD": 0.5,
+    "PROJ_SPD": 7,
+    "KNOCK_BACK": 0,
+    "ATK_RANGE": 7,
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          200,
+          250
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1,
+          1.5
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  },
+  "Hammer": {
+    "PROJ_N": "VK_Hammer",
+    "DMG": 150,
+    "ATK_SPD": 1,
+    "PROJ_SPD": 20,
+    "KNOCK_BACK": 0,
+    "ATK_RANGE": 7,
+    "listBuff": [
+      {
+        "Type": "AOE",
+        "Params": [
+          2
+        ]
+      }
+    ],
+    "CRIT": 50,
+    "CRIT_DMG": 100,
+    "StatLevels": {
+      "ATK": {
+        "Inc": [
+          200,
+          250
+        ]
+      },
+      "ATK_SPD": {
+        "Inc": [
+          1.5,
+          2
+        ]
+      },
+      "CRIT": {
+        "Inc": [
+          55,
+          60
+        ]
+      },
+      "CRIT_DMG": {
+        "Inc": [
+          150,
+          200
+        ]
+      }
+    }
+  }
+}

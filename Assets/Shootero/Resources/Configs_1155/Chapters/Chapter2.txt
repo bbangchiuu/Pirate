@@ -1,0 +1,75 @@
+{
+  "BaseGold" : 1500,
+  "BaseMaterial" : 4,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 50
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [5000, 5000],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 500,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm2"
+  ],
+  "BossHunt": {
+    "C2Boss1": {
+      "Avatar": "GunShip",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	 "C2Boss2": {
+      "Avatar": "BruteBoss",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	"C2Boss3": {
+      "Avatar": "MadDoc",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "OH_Buckler": 1
+    },
+    "Ruong1": {
+      "MU_ScoutHat": 1
+    },
+    "Ruong2": {
+      "M_Giap": 5
+    },
+    "Ruong3": {
+	  "AG_ClothTunic": 1
+    }
+  }
+}

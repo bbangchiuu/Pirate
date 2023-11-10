@@ -1,0 +1,454 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4828894472737233288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3480572567848842672}
+  m_Layer: 30
+  m_Name: barel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3480572567848842672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828894472737233288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.07, z: 1.26}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7732003461138741880}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7732003461138741887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7732003461138741880}
+  - component: {fileID: 7732003461138741878}
+  - component: {fileID: 7732003461138741882}
+  - component: {fileID: 7732003461138741883}
+  - component: {fileID: 7732003461138741881}
+  - component: {fileID: 1907341087396368070}
+  - component: {fileID: 7700259656877874944}
+  - component: {fileID: 1393696798}
+  m_Layer: 30
+  m_Name: NecromancerSkeleton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7732003461138741880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732003461138741887}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -7.09, y: 0, z: 12.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3480572567848842672}
+  - {fileID: 8589591967357129102}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &7732003461138741878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732003461138741887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f972e53bf4905d24f8cb94aeedd5ef6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shooter: {fileID: 7732003461138741882}
+  shooter2: {fileID: 0}
+  shooter3: {fileID: 0}
+  shooter4: {fileID: 0}
+  OffsetHUD: {x: 0, y: 2, z: 0}
+  visualGO: {fileID: 0}
+  UnitName: NecromancerSkeleton
+  teamUnit:
+    currentCryptoKey: 1099746683
+    hiddenValue: 1099746682
+    inited: 1
+    fakeValue: 1
+    fakeValueActive: 1
+  isNoneTargetUnit:
+    currentCryptoKey: 143
+    hiddenValue: 90
+    inited: 1
+    fakeValue: 1
+    fakeValueActive: 1
+  isBossUnit:
+    currentCryptoKey: 143
+    hiddenValue: 58
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  isAirUnit:
+    currentCryptoKey: 167
+    hiddenValue: 18
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  isMelee:
+    currentCryptoKey: 242
+    hiddenValue: 71
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  doNotApplyPopoModifier:
+    currentCryptoKey: 203
+    hiddenValue: 30
+    inited: 1
+    fakeValue: 1
+    fakeValueActive: 1
+  doNotApplyKhongLoModifier:
+    currentCryptoKey: 228
+    hiddenValue: 49
+    inited: 1
+    fakeValue: 1
+    fakeValueActive: 1
+  doNotApplyDeathrateModifier:
+    currentCryptoKey: 202
+    hiddenValue: 31
+    inited: 1
+    fakeValue: 1
+    fakeValueActive: 1
+  SpawnObjOnDie: {fileID: 0}
+  SpawnObjOnDieCount: 0
+  DontHaveDrop: 1
+  HideWhenDie: []
+  m_Collider: {fileID: 0}
+--- !u!114 &7732003461138741882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732003461138741887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bce57b98a6a30f742a397625665a99d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualGO: {fileID: 0}
+  danPrefab: {fileID: 114259093338141246, guid: 418991bf4d97b694c8a877496b95cdc3,
+    type: 3}
+  barrels:
+  - {fileID: 3480572567848842672}
+  atkSpd:
+    migratedVersion: 
+    currentCryptoKey: 1220589288
+    hiddenValue: 2008432872
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 1
+    fakeValueActive: 1
+  dmg:
+    currentCryptoKey: 2140833572900293299
+    hiddenValue: 2140833572900293305
+    inited: 1
+    fakeValue: 10
+    fakeValueActive: 1
+  projSpd:
+    migratedVersion: 
+    currentCryptoKey: 1158030470
+    hiddenValue: 1159988870
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  aimSpd:
+    migratedVersion: 
+    currentCryptoKey: 1984750568
+    hiddenValue: 870526440
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 3600
+    fakeValueActive: 1
+  knockBackDis:
+    migratedVersion: 
+    currentCryptoKey: 1737097927
+    hiddenValue: 1728219847
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  delayActiveDmg:
+    migratedVersion: 
+    currentCryptoKey: 1326533853
+    hiddenValue: 1909819463
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 0.3
+    fakeValueActive: 1
+  attackAnimTime:
+    migratedVersion: 
+    currentCryptoKey: 1265857276
+    hiddenValue: 1957845375
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 0.667
+    fakeValueActive: 1
+  shootAllBarrels:
+    currentCryptoKey: 200
+    hiddenValue: 29
+    inited: 1
+    fakeValue: 1
+    fakeValueActive: 1
+  isMeleeWeapon:
+    currentCryptoKey: 155
+    hiddenValue: 46
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  instantiateDanMelee:
+    currentCryptoKey: 190
+    hiddenValue: 11
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  FlashObject: {fileID: 0}
+  FlashPos: {fileID: 0}
+  shootAllBarrelsIgnoreBarrelList: []
+  CanApplyKhongLoModifier: 1
+  DelayFireSound: 1
+  IgnoreAtkDown: 0
+  FireOnOwnerDie: 0
+  InitOnAwake: 1
+--- !u!114 &7732003461138741883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732003461138741887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  pauseWhenDisabled: 0
+  restartWhenComplete: 1
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 0}
+  mBehaviorSource:
+    behaviorName: NecromancerSkeleton
+    behaviorDescription: 
+    mTaskData:
+      types:
+      - BehaviorDesigner.Runtime.Tasks.EntryTask
+      - BehaviorDesigner.Runtime.Tasks.Sequence
+      - BehaviorDesigner.Runtime.Tasks.GetMainPlayer
+      - BehaviorDesigner.Runtime.Tasks.HasEnemyTarget
+      - BehaviorDesigner.Runtime.Tasks.BotFire
+      parentIndex: ffffffff00000000010000000100000001000000
+      startIndex: 210000002b000000360000004800000056000000
+      variableStartIndex: 0000000003000000060000000a0000000e00000012000000160000001a0000001e000000
+      JSONSerialization: 
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: f9be55564aaa52567707a104f9be55564aaa52567707a104f9be55564aaa52567707a10414172f4cf9be55564aaa52567707a10414172f4cf9be55564aaa52567707a1041af3e5d3f9be55564aaa52567707a10414172f4cf9be55564aaa52567707a1041af3e5d3f9be55564aaa52567707a1041af3e5d3f9be55564aaa52567707a1042944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f9012944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f9018690b4b22944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f9012895225c215478b2723f75b29f9cc360ed4a1037e609668d37f5628d6452b13b2944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f90132ea888c2ba9dee27c94dbe2a9f129912944782b951203e811c37978c4a37522ae07a096e44d14616fd219c3a5f3b63149269a1caac4f901c70919a0d86b6262d12ab8b82216b5b84f7303673f0ed68e0fac5e58868d6fa5b1504b6bc34f4b6b1ce0602ec022269cda76c652
+        startIndex: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f0000004000000040000000410000004200000043000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f00000050000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000
+        dataPosition: 00000000280000002e0000002f0000005800000060000000610000008700000090000000910000009d000000c3000000cb000000cc000000d8000000fc00000007010000080100000c0100003201000041010000420100004e01000072010000800100008101000085010000a9010000b3010000b4010000b8010000e0010000eb010000ec010000f0010000f5010000f6010000f7010000ff010000ff010000000200000102000005020000090200000d0200001502000016020000170200001f0200001f020000200200002102000025020000290200002d020000310200004002000041020000420200004a0200004a0200004b0200004c02000050020000540200007c0200008202000083020000ac020000b4020000b5020000b9020000c9020000ca020000cb020000d3020000d3020000d4020000d5020000d9020000dd020000050300001003000011030000150300001d0300001e0300001f030000270300002703000028030000290300002d03000031030000350300005d03000068030000690300006d0300007103000072030000760300007a0300007b0300007c030000
+        unityObjects: []
+        byteData: 4265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c61796572014265686176696f7244657369676e65722e52756e74696d652e53686172656447616d654f626a656374706c61796572474f014265686176696f7244657369676e65722e52756e74696d652e536861726564566563746f7233706c61796572506f73010000000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564566563746f7233706f736974696f6e010000000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617463757244697374616e636501000000004265686176696f7244657369676e65722e52756e74696d652e536861726564566563746f7233706c61796572546172676574506f73010000000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617474617267657444697374616e636501000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617441747461636b5261746501cdcc4c3e4265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d656e656d795461726765740100000000456e74727901008168a1436cd8b7c1000000000000000000000100000053657175656e6365010096248940d0f30c43000000000000000000000000000002000000476574204d61696e20506c617965720100586b98c3ccfb5f43000000000000000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c61796572014265686176696f7244657369676e65722e52756e74696d652e53686172656447616d654f626a656374706c61796572474f010300000048617320456e656d792054617267657401004092d8c200005c43000000000000000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d656e656d795461726765740104000000426f7420466972650100c4c6eb42180b5f4300000000000000000000010000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d656e656d79546172676574010000000001000000000100000001000000010101
+        byteDataArray: 4265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c61796572014265686176696f7244657369676e65722e52756e74696d652e53686172656447616d654f626a656374706c61796572474f014265686176696f7244657369676e65722e52756e74696d652e536861726564566563746f7233706c61796572506f73010000000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564566563746f7233706f736974696f6e010000000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617463757244697374616e636501000000004265686176696f7244657369676e65722e52756e74696d652e536861726564566563746f7233706c61796572546172676574506f73010000000000000000000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617474617267657444697374616e636501000000004265686176696f7244657369676e65722e52756e74696d652e536861726564466c6f617441747461636b5261746501cdcc4c3e4265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d656e656d795461726765740100000000456e74727901008168a1436cd8b7c1000000000000000000000100000053657175656e6365010096248940d0f30c43000000000000000000000000000002000000476574204d61696e20506c617965720100586b98c3ccfb5f43000000000000000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d706c61796572014265686176696f7244657369676e65722e52756e74696d652e53686172656447616d654f626a656374706c61796572474f010300000048617320456e656d792054617267657401004092d8c200005c43000000000000000000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d656e656d795461726765740104000000426f7420466972650100c4c6eb42180b5f4300000000000000000000010000004265686176696f7244657369676e65722e52756e74696d652e5368617265645472616e73666f726d656e656d79546172676574010000000001000000000100000001000000010101
+      Version: 1.5.12
+--- !u!195 &7732003461138741881
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732003461138741887}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 6
+  m_Acceleration: 40
+  avoidancePriority: 99
+  m_AngularSpeed: 360
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 2
+--- !u!136 &1907341087396368070
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732003461138741887}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.7
+  m_Height: 5
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.5, z: 0}
+--- !u!54 &7700259656877874944
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732003461138741887}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1393696798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7732003461138741887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d97234851b450da41a851e26d0741139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TimeToDestroy: 5
+--- !u!1001 &8589591967356734218
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7732003461138741880}
+    m_Modifications:
+    - target: {fileID: 100004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_Name
+      value: B_Lich_Skeleton_LV1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f8f5122b49ab29847b7907691206cbef, type: 2}
+    - target: {fileID: 13700010, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: de6b239046b105a46889d3c1eb0da5e6, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a6e747ad2caa3a14ba757d480660abe4, type: 3}
+--- !u!4 &8589591967357129102 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400004, guid: a6e747ad2caa3a14ba757d480660abe4,
+    type: 3}
+  m_PrefabInstance: {fileID: 8589591967356734218}
+  m_PrefabAsset: {fileID: 0}

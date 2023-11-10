@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: d86a85d6535306644946844c81c2cf19
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: jnt_bot
+    100002: jnt_gun_2
+    100004: jnt_gun_b_2
+    100006: jnt_gun_c_2
+    100008: jnt_gun_f_2
+    100010: jnt_gun_nub_2
+    100012: jnt_Root
+    100014: jnt_rotate
+    100016: jnt_side
+    100018: jnt_side_nub
+    100020: jnt_up
+    100022: left
+    100024: pasted__T_Mortar_LV01_1_mesh
+    100026: //RootNode
+    100028: Tower_Base_LVL01
+    100030: pasted__T_Mortar_LV02_1_mesh
+    100032: Tower_Base_LVL04_01
+    100034: Tower_Base_LVL04_02
+    400000: jnt_bot
+    400002: jnt_gun_2
+    400004: jnt_gun_b_2
+    400006: jnt_gun_c_2
+    400008: jnt_gun_f_2
+    400010: jnt_gun_nub_2
+    400012: jnt_Root
+    400014: jnt_rotate
+    400016: jnt_side
+    400018: jnt_side_nub
+    400020: jnt_up
+    400022: left
+    400024: pasted__T_Mortar_LV01_1_mesh
+    400026: //RootNode
+    400028: Tower_Base_LVL01
+    400030: pasted__T_Mortar_LV02_1_mesh
+    400032: Tower_Base_LVL04_01
+    400034: Tower_Base_LVL04_02
+    4300000: Tower_Base_LVL01
+    4300002: pasted__T_Mortar_LV01_1_mesh
+    4300004: Tower_Base_LVL04_01
+    4300006: Tower_Base_LVL04_02
+    4300008: pasted__T_Mortar_LV02_1_mesh
+    7400000: T_Mortar_LV1_spawn
+    7400002: T_Mortar_LV1_idle
+    7400004: T_Mortar_LV1_attack
+    7400006: T_Bombard_LV2_spawn
+    7400008: T_Bombard_LV2_idle
+    7400010: T_Bombard_LV2_attack
+    9500000: //RootNode
+    13700000: pasted__T_Mortar_LV01_1_mesh
+    13700002: Tower_Base_LVL01
+    13700004: pasted__T_Mortar_LV02_1_mesh
+    13700006: Tower_Base_LVL04_01
+    13700008: Tower_Base_LVL04_02
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Tower_Base_LVL01_dif_png
+    second: {fileID: 2100000, guid: 064aaf1ca0bbf4746a96730993c11a3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Tower_Base_LVL07_dif_png
+    second: {fileID: 2100000, guid: 93e3464a7a2766c4faabed115968c9b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Zun_mortar_lv2_dif_png
+    second: {fileID: 2100000, guid: e260794ceb0a9044d8a951b4b1a0825e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: T_Bombard_LV2_spawn
+      takeName: 
+      firstFrame: 5
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_Root
+        weight: 1
+      - path: jnt_Root/jnt_bot
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_side
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_side/jnt_side_nub
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2/jnt_gun_b_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2/jnt_gun_f_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2/jnt_gun_nub_2
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pasted__T_Mortar_LV02_1_mesh
+        weight: 1
+      - path: Tower_Base_LVL04_01
+        weight: 1
+      - path: Tower_Base_LVL04_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: T_Bombard_LV2_idle
+      takeName: 
+      firstFrame: 35
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_Root
+        weight: 1
+      - path: jnt_Root/jnt_bot
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_side
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_side/jnt_side_nub
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2/jnt_gun_b_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2/jnt_gun_f_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2/jnt_gun_nub_2
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pasted__T_Mortar_LV02_1_mesh
+        weight: 1
+      - path: Tower_Base_LVL04_01
+        weight: 1
+      - path: Tower_Base_LVL04_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: T_Bombard_LV2_attack
+      takeName: 
+      firstFrame: 65
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_Root
+        weight: 1
+      - path: jnt_Root/jnt_bot
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_side
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_side/jnt_side_nub
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2/jnt_gun_b_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2/jnt_gun_f_2
+        weight: 1
+      - path: jnt_Root/jnt_bot/jnt_up/jnt_rotate/jnt_gun_2/jnt_gun_c_2/jnt_gun_nub_2
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pasted__T_Mortar_LV02_1_mesh
+        weight: 1
+      - path: Tower_Base_LVL04_01
+        weight: 1
+      - path: Tower_Base_LVL04_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 1
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.036
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

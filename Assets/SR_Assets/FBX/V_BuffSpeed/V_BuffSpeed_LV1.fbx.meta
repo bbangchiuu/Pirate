@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 798b4928fae6ddc42a4446428f8671c3
+timeCreated: 1533628698
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: jnt_all
+    100002: jnt_body
+    100004: jnt_floor
+    100006: jnt_L_pipe01
+    100008: jnt_L_pipe02
+    100010: jnt_L_pipe03
+    100012: jnt_L_power01
+    100014: jnt_L_power02
+    100016: jnt_L_power03
+    100018: jnt_root
+    100020: jnt_wheel
+    100022: Speeder_LV4_0_mesh
+    100024: //RootNode
+    400000: jnt_all
+    400002: jnt_body
+    400004: jnt_floor
+    400006: jnt_L_pipe01
+    400008: jnt_L_pipe02
+    400010: jnt_L_pipe03
+    400012: jnt_L_power01
+    400014: jnt_L_power02
+    400016: jnt_L_power03
+    400018: jnt_root
+    400020: jnt_wheel
+    400022: Speeder_LV4_0_mesh
+    400024: //RootNode
+    4300000: Speeder_LV4_0_mesh
+    7400000: V_BuffSpeed_LV1_idle
+    9500000: //RootNode
+    13700000: Speeder_LV4_0_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - jnt_root/jnt_all/jnt_body/jnt_floor
+    clipAnimations:
+    - serializedVersion: 16
+      name: V_BuffSpeed_LV1_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_all
+        weight: 1
+      - path: jnt_root/jnt_all/jnt_body
+        weight: 1
+      - path: jnt_root/jnt_all/jnt_body/jnt_floor
+        weight: 1
+      - path: jnt_root/jnt_all/jnt_body/jnt_L_pipe01
+        weight: 1
+      - path: jnt_root/jnt_all/jnt_body/jnt_L_pipe01/jnt_L_pipe02
+        weight: 1
+      - path: jnt_root/jnt_all/jnt_body/jnt_L_pipe01/jnt_L_pipe02/jnt_L_pipe03
+        weight: 1
+      - path: jnt_root/jnt_all/jnt_body/jnt_L_power01
+        weight: 1
+      - path: jnt_root/jnt_all/jnt_body/jnt_L_power01/jnt_L_power02
+        weight: 1
+      - path: jnt_root/jnt_all/jnt_body/jnt_L_power01/jnt_L_power02/jnt_L_power03
+        weight: 1
+      - path: jnt_root/jnt_all/jnt_body/jnt_wheel
+        weight: 1
+      - path: Speeder_LV4_0_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

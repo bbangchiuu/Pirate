@@ -1,0 +1,903 @@
+{
+  "PrefixIAP": "com.hikergames.arcadehunter",
+  "GemOffer": {
+    "GemPack_0": {
+      "Content": {
+        "Gem": 90
+      },
+      "Bonus": 0,
+      "Price": "$0.99",
+      "StoreId": "gem_pack_0"
+    },
+    "GemPack_1": {
+      "Content": {
+        "Gem": 500
+      },
+      "Bonus": 0,
+      "Price": "$4.99",
+      "StoreId": "gem_pack_1"
+    },
+    "GemPack_2": {
+      "Content": {
+        "Gem": 1200
+      },
+      "Bonus": 0,
+      "Price": "$9.99",
+      "StoreId": "gem_pack_2"
+    },
+    "GemPack_3": {
+      "Content": {
+        "Gem": 2500
+      },
+      "Bonus": 0,
+      "Price": "$19.99",
+      "StoreId": "gem_pack_3"
+    },
+    "GemPack_4": {
+      "Content": {
+        "Gem": 6500
+      },
+      "Bonus": 0,
+      "Price": "$49.99",
+      "StoreId": "gem_pack_4"
+    },
+    "GemPack_5": {
+      "Content": {
+        "Gem": 14000
+      },
+      "Bonus": 0,
+      "Price": "$99.99",
+      "StoreId": "gem_pack_5"
+    }
+  },
+  "DailyGemPack": {},
+  "FlashSale": {
+    "NewOffer_Starter2": {
+      "StoreId": "newoffer_stater2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "LOSE_BATTLE": "2"
+      },
+      "Stock": 1,
+      "Content": {
+        "RE_XX_3": 1,
+        "Gold": 8000,
+        "M_VuKhi": 20
+      },
+      "PromoSale": 75,
+      "PromoRarity": "Epic",
+      "Price": "$4.99"
+    },
+    "NewOffer_Starter1": {
+      "StoreId": "newoffer_starter1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "LOSE_BATTLE": "2"
+      },
+      "Stock": 1,
+      "Content": {
+        "VK_BattleAxe": 1,
+        "Gem": 200
+      },
+      "PromoSale": 70,
+      "PromoRarity": "Rare",
+      "Price": "$0.99"
+    },
+    "Chap3_Offer_1": {
+      "StoreId": "newoffer_chap3_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "LOSE_BATTLE": "3"
+      },
+      "Stock": 1,
+      "Content": {
+        "VK_Fireball": 1,
+        "Gem": 200,
+        "Gold": 10000
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Epic",
+      "Price": "$6.99"
+    },
+    "Chap4_Offer_1": {
+      "StoreId": "newoffer_chap4_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "3"
+      },
+      "Stock": 1,
+      "Content": {
+        "MU_MusketeerHat": 1,
+        "Gold": 10000
+      },
+      "PromoSale": 70,
+      "PromoRarity": "Epic",
+      "Price": "$4.99"
+    },
+    "Chap4_Offer_2": {
+      "StoreId": "newoffer_chap4_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "3"
+      },
+      "Stock": 1,
+      "Content": {
+        "Gem": 2500,
+        "M_Unknow": 100,
+        "Gold": 15000
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Epic",
+      "Price": "$9.99"
+    },
+    "Chap5_Offer_1": {
+      "StoreId": "newoffer_chap5_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "4"
+      },
+      "Stock": 1,
+      "Content": {
+        "AG_RougeCloak": 1,
+        "Gold": 12000
+      },
+      "PromoSale": 70,
+      "PromoRarity": "Epic",
+      "Price": "$4.99"
+    },
+    "Chap5_Offer_2": {
+      "StoreId": "newoffer_chap5_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "4"
+      },
+      "Stock": 1,
+      "Content": {
+        "Gem": 2500,
+        "M_Unknow": 120,
+        "Gold": 20000
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Epic",
+      "Price": "$9.99"
+    },
+    "Chap6_Offer_1": {
+      "StoreId": "newoffer_chap6_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "5"
+      },
+      "Stock": 1,
+      "Content": {
+        "RE_XX_4": 1,
+        "Gold": 10000
+      },
+      "PromoSale": 85,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    },
+    "Chap6_Offer_2": {
+      "StoreId": "newoffer_chap6_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "5"
+      },
+      "Stock": 1,
+      "Content": {
+        "Gold": 180000,
+        "M_Unknow": 500
+      },
+      "PromoSale": 70,
+      "PromoRarity": "Epic",
+      "Price": "$9.99"
+    },
+    "Chap7_Offer_1": {
+      "StoreId": "newoffer_chap7_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "6"
+      },
+      "Stock": 1,
+      "Content": {
+        "VK_VampireSword": 1,
+        "M_VuKhi": 100,
+        "Gold": 40000
+      },
+      "PromoSale": 75,
+      "PromoRarity": "Legend",
+      "Price": "$24.99"
+    },
+    "Chap7_Offer_2": {
+      "StoreId": "newoffer_chap7_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "6"
+      },
+      "Stock": 1,
+      "Content": {
+        "Gold": 200000,
+        "M_Unknow": 550
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$9.99"
+    },
+    "Chap8_Offer_1": {
+      "StoreId": "newoffer_chap8_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "7"
+      },
+      "Stock": 1,
+      "Content": {
+        "MU_DjinnHat": 1,
+        "Gem": 500,
+        "Gold": 40000
+      },
+      "PromoSale": 75,
+      "PromoRarity": "Legend",
+      "Price": "$24.99"
+    },
+    "Chap8_Offer_2": {
+      "StoreId": "newoffer_chap8_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "7"
+      },
+      "Stock": 1,
+      "Content": {
+        "Gold": 220000,
+        "M_Unknow": 600
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$9.99"
+    },
+    "Chap9_Offer_1": {
+      "StoreId": "newoffer_chap9_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "8"
+      },
+      "Stock": 1,
+      "Content": {
+        "AG_SearphSuit": 1,
+        "M_Unknow": 200,
+        "Gold": 40000
+      },
+      "PromoSale": 75,
+      "PromoRarity": "Legend",
+      "Price": "$24.99"
+    },
+    "Chap9_Offer_2": {
+      "StoreId": "newoffer_chap9_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "8"
+      },
+      "Stock": 1,
+      "Content": {
+        "Gold": 250000,
+        "M_Unknow": 650
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$9.99"
+    },
+    "Chap9_Offer_3": {
+      "StoreId": "newoffer_chap9_3",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "8"
+      },
+      "Stock": 1,
+      "Content": {
+        "OH_InfernalGlove": 1
+      },
+      "PromoSale": 85,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    },
+    "Chap10_Offer_1": {
+      "StoreId": "newoffer_chap10_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "9"
+      },
+      "Stock": 1,
+      "Content": {
+        "VK_CursedStaff": 1,
+        "M_VuKhi": 200,
+        "Gold": 100000
+      },
+      "PromoSale": 75,
+      "PromoRarity": "Legend",
+      "Price": "$24.99"
+    },
+    "Chap10_Offer_2": {
+      "StoreId": "newoffer_chap10_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "9"
+      },
+      "Stock": 1,
+      "Content": {
+        "RE_XX_4": 1,
+        "Gem": 200
+      },
+      "PromoSale": 85,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    },
+    "Chap11_Offer_1": {
+      "StoreId": "newoffer_chap11_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "10"
+      },
+      "Stock": 1,
+      "Content": {
+        "Gold": 300000,
+        "M_Unknow": 700
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$9.99"
+    },
+    "Chap11_Offer_2": {
+      "StoreId": "newoffer_chap11_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "10"
+      },
+      "Stock": 1,
+      "Content": {
+        "RE_XX_4": 1,
+        "Gold": 100000
+      },
+      "PromoSale": 85,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    },
+    "Chap12_Offer_1": {
+      "StoreId": "newoffer_chap12_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "11"
+      },
+      "Stock": 1,
+      "Content": {
+        "Gem": 2500,
+        "Gold": 150000,
+        "M_Unknow": 300
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$9.99"
+    },
+    "Chap12_Offer_2": {
+      "StoreId": "newoffer_chap12_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "11"
+      },
+      "Stock": 1,
+      "Content": {
+        "RE_XX_4": 1,
+        "M_HeroStone": 300
+      },
+      "PromoSale": 85,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    },
+    "Chap13_Offer_1": {
+      "StoreId": "newoffer_chap13_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "12"
+      },
+      "Stock": 1,
+      "Content": {
+        "RE_XX_4": 1,
+        "Gem": 200
+      },
+      "PromoSale": 85,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    },
+    "Chap14_Offer_1": {
+      "StoreId": "newoffer_chap14_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "13"
+      },
+      "Stock": 1,
+      "Content": {
+        "RE_XX_4": 1,
+        "M_HeroStone": 300
+      },
+      "PromoSale": 85,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    },
+    "Chap15_Offer_1": {
+      "StoreId": "newoffer_chap15_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "14"
+      },
+      "Stock": 1,
+      "Content": {
+        "MU_RoboMask": 1,
+        "OH_Calabash": 1
+      },
+      "PromoSale": 90,
+      "PromoRarity": "Legend",
+      "Price": "$24.99"
+    },
+    "Chap15_Offer_2": {
+      "StoreId": "newoffer_chap15_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "14"
+      },
+      "Stock": 1,
+      "Content": {
+        "Gold": 600000,
+        "M_Unknow": 2000
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$19.99"
+    },
+    "Chap16_Offer_1": {
+      "StoreId": "newoffer_chap16_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "15"
+      },
+      "Stock": 1,
+      "Content": {
+        "RE_XX_4": 1,
+        "M_VuKhi": 300
+      },
+      "PromoSale": 85,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    },
+    "Chap17_Offer_1": {
+      "StoreId": "newoffer_chap17_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "16"
+      },
+      "Stock": 1,
+      "Content": {
+        "RE_XX_4": 1,
+        "Gold": 150000
+      },
+      "PromoSale": 85,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    },
+    "Chap17_Offer_2": {
+      "StoreId": "newoffer_chap17_2",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "16"
+      },
+      "Stock": 1,
+      "Content": {
+        "M_VuKhi": 1000,
+        "M_Mu": 1000,
+        "M_Giap": 1000
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$19.99"
+    },
+    "Chap18_Offer_1": {
+      "StoreId": "newoffer_chap18_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "17"
+      },
+      "Stock": 1,
+      "Content": {
+        "VK_MechaGun": 1,
+        "OH_FlameSkull": 1
+      },
+      "PromoSale": 90,
+      "PromoRarity": "Legend",
+      "Price": "$24.99"
+    },
+    "Chap19_Offer_1": {
+      "StoreId": "newoffer_chap19_1",
+      "MinuteOnStock": 0,
+      "FlashSaleCondition": {
+        "CLEAR_CHAP": "18"
+      },
+      "Stock": 1,
+      "Content": {
+        "RE_XX_4": 1,
+        "Gem": 200
+      },
+      "PromoSale": 85,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    }
+  },
+  "DailyOffer": {
+    "Daily_Offer_Free": {
+      "StoreId": "",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "Gold": -1,
+        "M_Unknow": -1
+      },
+      "Cost": -1,
+      "PromoSale": 0,
+      "PromoRarity": "Common",
+      "Price": "$0.00"
+    },
+    "Daily_Offer_Gold": {
+      "StoreId": "daily_gold_pack",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "Gold": -8
+      },
+      "PromoSale": 0,
+      "PromoRarity": "Common",
+      "Price": "$0.99"
+    },
+    "Daily_Offer_BigGold": {
+      "StoreId": "big_daily_gold_pack",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "Gold": -30
+      },
+      "PromoSale": 0,
+      "PromoRarity": "Common",
+      "Price": "$2.99"
+    },
+    "Daily_Offer_VuKhi": {
+      "StoreId": "daily_material_pack",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "M_VuKhi": -15
+      },
+      "PromoSale": 0,
+      "PromoRarity": "Common",
+      "Price": "$1.99"
+    },
+    "Daily_Offer_Mu": {
+      "StoreId": "daily_material_pack_2",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "M_Mu": -15
+      },
+      "PromoSale": 0,
+      "PromoRarity": "Common",
+      "Price": "$1.99"
+    },
+    "Daily_Offer_Giap": {
+      "StoreId": "daily_material_pack_3",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "M_Giap": -15
+      },
+      "PromoSale": 0,
+      "PromoRarity": "Common",
+      "Price": "$1.99"
+    },
+    "Daily_Offer_OffHand": {
+      "StoreId": "daily_material_pack_4",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "M_OffHand": -15
+      },
+      "PromoSale": 0,
+      "PromoRarity": "Common",
+      "Price": "$1.99"
+    }
+  },
+  "WeeklyOffer": {},
+  "MonthlyOffer": {},
+  "HeroOffer": {
+    "H_Graves_Offer": {
+      "StoreId": "",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "H_Graves": 1
+      },
+      "Cost": 1000,
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": ""
+    },
+    "H_BeastMaster_Offer": {
+      "StoreId": "hero_offer_1",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "H_BeastMaster": 1
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$9.99"
+    },
+    "H_Paladin_Offer": {
+      "StoreId": "hero_offer_2",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "H_Paladin": 1
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    },
+    "H_Magician_Offer": {
+      "StoreId": "",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "H_Magician": 1
+      },
+      "Cost": 1500,
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": ""
+    },
+    "H_Thor_Offer": {
+      "StoreId": "hero_offer_3",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "H_Thor": 1
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$12.99"
+    },
+    "H_Wukong_Offer": {
+      "StoreId": "hero_offer_4",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "H_Wukong": 1
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$12.99"
+    },
+    "H_Vayne_Offer": {
+      "StoreId": "",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "H_Vayne": 1
+      },
+      "Cost": 1400,
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": ""
+    },
+    "H_Necromancer_Offer": {
+      "StoreId": "hero_offer_darkknight",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "H_Necromancer": 1
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$14.99",
+      "IsNonConsum": true
+    },
+    "H_Captain_Offer": {
+      "StoreId": "hero_offer_cap_1",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "H_Captain": 1
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$11.99"
+    },
+    "H_IronMan_Offer": {
+      "StoreId": "hero_offer_ir_1",
+      "MinuteOnStock": 0,
+      "Stock": 1,
+      "Content": {
+        "H_IronMan": 1
+      },
+      "PromoSale": 80,
+      "PromoRarity": "Legend",
+      "Price": "$14.99"
+    }
+  },
+  "LimitedTime": {
+    "SpecialOffer5_1": {
+      "Content": {
+        "Gold": 1000
+      },
+      "Bonus": 0,
+      "Price": "$4.99",
+      "StoreId": "special_offer5_1"
+    },
+    "SpecialOffer5_2": {
+      "Content": {
+        "Gold": 1000
+      },
+      "Bonus": 0,
+      "Price": "$4.99",
+      "StoreId": "special_offer5_2"
+    },
+    "SpecialOffer10_1": {
+      "Content": {
+        "Gold": 1000
+      },
+      "Bonus": 0,
+      "Price": "$9.99",
+      "StoreId": "special_offer10_1"
+    },
+    "SpecialOffer10_2": {
+      "Content": {
+        "Gold": 1000
+      },
+      "Bonus": 0,
+      "Price": "$9.99",
+      "StoreId": "special_offer10_2"
+    },
+    "SpecialOffer15_1": {
+      "Content": {
+        "Gold": 1000
+      },
+      "Bonus": 0,
+      "Price": "$14.99",
+      "StoreId": "special_offer15_1"
+    },
+    "SpecialOffer15_2": {
+      "Content": {
+        "Gold": 1000
+      },
+      "Bonus": 0,
+      "Price": "$14.99",
+      "StoreId": "special_offer15_2"
+    },
+    "SpecialOffer20_1": {
+      "Content": {
+        "Gold": 1000
+      },
+      "Bonus": 0,
+      "Price": "$19.99",
+      "StoreId": "special_offer20_1"
+    },
+    "SpecialOffer20_2": {
+      "Content": {
+        "Gold": 1000
+      },
+      "Bonus": 0,
+      "Price": "$19.99",
+      "StoreId": "special_offer20_2"
+    }
+  },
+  "PremiumPack": {
+    "Premium_Offer_0": {
+      "Content": {
+        "M_PremiumDays": 3
+      },
+      "Bonus": 0,
+      "Price": "$3.99",
+      "StoreId": "premium_offer_0"
+    },
+    "Premium_Offer_1": {
+      "Content": {
+        "M_PremiumDays": 3
+      },
+      "Bonus": 0,
+      "Price": "$14.99",
+      "StoreId": "premium_offer_1"
+    }
+  },
+  "TargetOffer": {
+    "H_Necromancer": {
+      "StoreId": "target_hero_h_necromancer",
+      "Content": {
+        "H_Necromancer": 1,
+        "M_HeroStone": 500,
+        "Gold": 100000
+      },
+      "PromoSale": 80,
+      "Price": "$9.99"
+    },
+    "H_Wukong": {
+      "StoreId": "target_hero_h_wukong",
+      "Content": {
+        "H_Wukong": 1,
+        "M_HeroStone": 500,
+        "Gold": 100000
+      },
+      "PromoSale": 80,
+      "Price": "$9.99"
+    },
+    "H_Thor": {
+      "StoreId": "target_hero_h_thor",
+      "Content": {
+        "H_Thor": 1,
+        "M_HeroStone": 500,
+        "Gold": 100000
+      },
+      "PromoSale": 80,
+      "Price": "$9.99"
+    },
+    "H_Paladin": {
+      "StoreId": "target_hero_h_paladin",
+      "Content": {
+        "H_Paladin": 1,
+        "M_HeroStone": 500,
+        "Gold": 100000
+      },
+      "PromoSale": 80,
+      "Price": "$9.99"
+    },
+    "H_BeastMaster": {
+      "StoreId": "target_hero_h_beastmaster",
+      "Content": {
+        "H_BeastMaster": 1,
+        "M_HeroStone": 500,
+        "Gold": 100000
+      },
+      "PromoSale": 80,
+      "Price": "$6.99"
+    },
+    "Forge_1": {
+      "StoreId": "target_offer_forge_1",
+      "Content": {
+        "RE_XX_4": 1,
+        "Gold": 100000
+      },
+      "PromoSale": 80,
+      "Price": "$9.99"
+    },
+    "Forge_3": {
+      "StoreId": "target_offer_forge_3",
+      "Content": {
+        "MU_BeastHelm": 1,
+        "OH_GiantRing": 1
+      },
+      "PromoSale": 80,
+      "Price": "$19.99"
+    }
+  },
+  "TruongThanhOffer": {
+    "TruongThanh": {
+      "StoreId": "offer_truong_thanh",
+      "Content": {
+        "H_BeastMaster": 1
+      },
+      "PromoSale": 80,
+      "Price": "$9.99"
+    }
+  },
+  "TetEventOffer": {
+    "TetEventBattlePass": {
+      "StoreId": "offer_tet_event",
+      "Content": {
+        "M_TheLuc": 50
+      },
+      "PromoSale": 80,
+      "Price": "$9.99"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "BaseGold" : 16200,
+  "BaseMaterial" : 24,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [81000, 81000],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 21000,
+	  "Quantity" : [60, 60],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [120, 120],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm17"
+  ],
+  "BossHunt": {
+	"C18Boss1": {
+      "Avatar": "BirdShaman",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C18Boss2": {
+      "Avatar": "Abaddon",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+    "C18Boss3": {
+      "Avatar": "Treant",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	 "C18Boss4": {
+      "Avatar": "King",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "M_KeyLegend": 1
+    },
+    "Ruong1": {
+      "M_VuKhi": 287
+    },
+    "Ruong2": {
+      "M_Giap": 294
+    },
+    "Ruong3": {
+      "Gem": 128,
+	  "Gold": 128000
+    }
+  }
+}

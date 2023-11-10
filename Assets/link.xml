@@ -1,0 +1,11 @@
+<linker>
+   <!--  <assembly fullname="I18N">
+        <type fullname="I18N.Common.Manager" preserve="all"/>
+    </assembly> -->
+	<assembly fullname="UnityEngine.Purchasing.Stores" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Purchasing.Stores.*" preserve="all"/>
+	</assembly>
+	<assembly fullname="UnityEngine.Purchasing" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Purchasing.*" preserve="all"/>
+	</assembly>
+</linker>

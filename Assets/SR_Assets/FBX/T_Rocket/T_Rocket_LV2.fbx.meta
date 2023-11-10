@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 95d09ec49860cb74ebe29c3ce020254f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: group
+    100002: jnt_rotate
+    100004: joint10
+    100006: joint11
+    100008: joint2
+    100010: joint3
+    100012: joint5
+    100014: joint6
+    100016: joint7
+    100018: joint8
+    100020: joint9
+    100022: left
+    100024: pasted__lv1
+    100026: Root
+    100028: //RootNode
+    100030: Tower_Base_LVL01
+    100032: pasted__lv2
+    100034: Tower_Base_LVL04_01
+    100036: Tower_Base_LVL04_02
+    100038: T_Rocket_LV2_1_mesh1
+    100040: T_Rocket_LV2_2_mesh1
+    100042: T_Rocket_LV2_2_mesh2
+    100044: jnt_fire
+    100046: joint7 1
+    400000: group
+    400002: jnt_rotate
+    400004: joint10
+    400006: joint11
+    400008: joint2
+    400010: joint3
+    400012: joint5
+    400014: joint6
+    400016: joint7
+    400018: joint8
+    400020: joint9
+    400022: left
+    400024: pasted__lv1
+    400026: Root
+    400028: //RootNode
+    400030: Tower_Base_LVL01
+    400032: pasted__lv2
+    400034: Tower_Base_LVL04_01
+    400036: Tower_Base_LVL04_02
+    400038: T_Rocket_LV2_1_mesh1
+    400040: T_Rocket_LV2_2_mesh1
+    400042: T_Rocket_LV2_2_mesh2
+    400044: jnt_fire
+    400046: joint7 1
+    4300000: Tower_Base_LVL01
+    4300002: pasted__lv1
+    4300004: Tower_Base_LVL04_01
+    4300006: Tower_Base_LVL04_02
+    4300008: pasted__lv2
+    4300010: T_Rocket_LV2_1_mesh1
+    4300012: T_Rocket_LV2_2_mesh1
+    4300014: T_Rocket_LV2_2_mesh2
+    7400000: T_Rocket_LV2_spawn
+    7400002: T_Rocket_LV2_idle
+    7400004: T_Rocket_LV2_attack
+    7400006: T_Rocket_LV1_spawn
+    7400008: T_Rocket_LV1_build
+    9500000: //RootNode
+    13700000: pasted__lv1
+    13700002: Tower_Base_LVL01
+    13700004: pasted__lv2
+    13700006: Tower_Base_LVL04_01
+    13700008: Tower_Base_LVL04_02
+    13700010: T_Rocket_LV2_1_mesh1
+    13700012: T_Rocket_LV2_2_mesh1
+    13700014: T_Rocket_LV2_2_mesh2
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__T_Rocket_LV2_MTL
+    second: {fileID: 2100000, guid: e9197f2c58fa5404fa8b9f320a011303, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__phong1
+    second: {fileID: 2100000, guid: 386961d62fa010047b912a4a6281f18d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: T_Rocket_LV2_idle
+      takeName: 
+      firstFrame: 35
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint2
+        weight: 1
+      - path: Root/joint2/joint3
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6/joint7
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6/joint8
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6/joint9
+        weight: 1
+      - path: Root/joint2/joint10
+        weight: 1
+      - path: Root/joint2/joint10/joint11
+        weight: 1
+      - path: T_Rocket_LV2_1_mesh1
+        weight: 1
+      - path: T_Rocket_LV2_2_mesh1
+        weight: 1
+      - path: T_Rocket_LV2_2_mesh2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: T_Rocket_LV2_attack
+      takeName: 
+      firstFrame: 65
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__lv2
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint2
+        weight: 1
+      - path: Root/joint2/joint3
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6/joint7
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6/joint8
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6/joint9
+        weight: 1
+      - path: Root/joint2/joint10
+        weight: 1
+      - path: Root/joint2/joint10/joint11
+        weight: 1
+      - path: Tower_Base_LVL04_01
+        weight: 1
+      - path: Tower_Base_LVL04_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: T_Rocket_LV2_spawn
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__lv2
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/joint2
+        weight: 1
+      - path: Root/joint2/joint3
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6/joint7
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6/joint8
+        weight: 1
+      - path: Root/joint2/joint3/jnt_rotate/joint5/joint6/joint9
+        weight: 1
+      - path: Root/joint2/joint10
+        weight: 1
+      - path: Root/joint2/joint10/joint11
+        weight: 1
+      - path: Tower_Base_LVL04_01
+        weight: 1
+      - path: Tower_Base_LVL04_02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.6
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.036
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 2
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

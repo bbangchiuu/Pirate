@@ -1,0 +1,96 @@
+{
+  "BaseGold" : 2500,
+  "BaseMaterial" : 8,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 50
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [12500, 12500],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 2800,
+	  "Quantity" : [8, 8],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [20, 20],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm4"
+  ],
+  "BossHunt": {
+    "C4Boss1": {
+      "Avatar": "Seraph",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	 "C4Boss2": {
+      "Avatar": "MadDoc",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	"C4Boss3": {
+      "Avatar": "GunShip",
+      "Reward": {
+        "Gem": 105
+      }
+    },
+	"C4Boss4": {
+      "Avatar": "BruteBoss",
+      "Reward": {
+        "Gem": 105
+      }
+    },
+	"C4Boss5": {
+      "Avatar": "Tank",
+      "Reward": {
+        "Gem": 120
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "VK_DuelistWand": 1
+    },
+    "Ruong1": {
+      "M_Giap": 10
+    },
+    "Ruong2": {
+      "Gold": 5400
+    },
+    "Ruong3": {
+      "AG_SteelArmor": 1
+    },
+    "Ruong4": {
+      "M_VuKhi": 10
+    },
+    "Ruong5": {
+      "Gem": 70
+    },
+    "Ruong6": {
+      "M_Mu": 15
+    }
+  }
+}

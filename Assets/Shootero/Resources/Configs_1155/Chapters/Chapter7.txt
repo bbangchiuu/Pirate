@@ -1,0 +1,96 @@
+{
+  "BaseGold" : 4000,
+  "BaseMaterial" : 12,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 50
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [20000, 20000],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 4200,
+	  "Quantity" : [12, 12],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [30, 30],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm7"
+  ],
+  "BossHunt": {
+    "C7Boss1": {
+      "Avatar": "Colossus",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	 "C7Boss2": {
+      "Avatar": "Seraph",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	"C7Boss3": {
+      "Avatar": "WildHog",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	"C7Boss4": {
+      "Avatar": "Biker",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	"C7Boss5": {
+      "Avatar": "Helicopter",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	"C7Boss6": {
+      "Avatar": "SpiderQueen",
+      "Reward": {
+        "Gem": 115
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "MU_RaiderMask": 1
+    },
+    "Ruong1": {
+      "Gold": 8500
+    },
+    "Ruong2": {
+      "Gem": 110
+    },
+    "Ruong3": {
+      "M_VuKhi": 35
+    },
+    "Ruong4": {
+      "M_KeyEpic": 1
+    }
+  }
+}

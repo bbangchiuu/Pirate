@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: d09cd89f8378f85428e828154eba2253
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ALL
+    100004: jnt_joint2
+    100006: jnt_joint3
+    100008: jnt_joint4
+    100010: jnt_joint5
+    100012: jnt_Root
+    100014: left
+    100016: LV5
+    100018: mesh
+    100020: polySurface105
+    100022: polySurface123
+    100024: jnt_root
+    100026: pasted__A_mortar_LV05_0_mesh
+    100028: jnt_rotate
+    100030: jnt_r
+    100032: joint_root
+    400000: //RootNode
+    400002: ALL
+    400004: jnt_joint2
+    400006: jnt_joint3
+    400008: jnt_joint4
+    400010: jnt_joint5
+    400012: jnt_Root
+    400014: left
+    400016: LV5
+    400018: mesh
+    400020: polySurface105
+    400022: polySurface123
+    400024: jnt_root
+    400026: pasted__A_mortar_LV05_0_mesh
+    400028: jnt_rotate
+    400030: jnt_r
+    400032: joint_root
+    2300000: polySurface123
+    3300000: polySurface123
+    4300000: polySurface123
+    4300002: polySurface105
+    4300004: pasted__A_mortar_LV05_0_mesh
+    7400000: A_Mortar_LV5_idle
+    7400002: A_Mortar_LV5_attack
+    9500000: //RootNode
+    13700000: polySurface105
+    13700002: pasted__A_mortar_LV05_0_mesh
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'pasted__Material #280'
+    second: {fileID: 2100000, guid: 0eaf069ed373a9a45935332660da8d4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'pasted__Material #393'
+    second: {fileID: 2100000, guid: 3100f9bda67304f41b99e7ecab834255, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: A_Mortar_LV5_idle
+      takeName: 
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_root
+        weight: 1
+      - path: joint_root/jnt_rotate
+        weight: 1
+      - path: joint_root/jnt_rotate/jnt_r
+        weight: 1
+      - path: joint_root/jnt_rotate/jnt_r/jnt_joint3
+        weight: 1
+      - path: joint_root/jnt_rotate/jnt_r/jnt_joint3/jnt_joint4
+        weight: 1
+      - path: joint_root/jnt_rotate/jnt_r/jnt_joint3/jnt_joint5
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pasted__A_mortar_LV05_0_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: A_Mortar_LV5_attack
+      takeName: 
+      firstFrame: 17
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint_root
+        weight: 1
+      - path: joint_root/jnt_rotate
+        weight: 1
+      - path: joint_root/jnt_rotate/jnt_r
+        weight: 1
+      - path: joint_root/jnt_rotate/jnt_r/jnt_joint3
+        weight: 1
+      - path: joint_root/jnt_rotate/jnt_r/jnt_joint3/jnt_joint4
+        weight: 1
+      - path: joint_root/jnt_rotate/jnt_r/jnt_joint3/jnt_joint5
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pasted__A_mortar_LV05_0_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 1
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.036
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

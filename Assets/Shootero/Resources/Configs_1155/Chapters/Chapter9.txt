@@ -1,0 +1,85 @@
+{
+  "BaseGold" : 5300,
+  "BaseMaterial" : 14,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [26500, 26500],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 4900,
+	  "Quantity" : [14, 14],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [35, 35],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm9"
+  ],
+  "BossHunt": {    
+	"C10Boss3": {
+      "Avatar": "OrcKing",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C10Boss4": {
+      "Avatar": "Infernal",
+      "Reward": {
+        "Gem": 120
+      }
+    },
+	"C10Boss1": {
+      "Avatar": "Monk",
+      "Reward": {
+        "Gem": 105
+      }
+    },
+	 "C10Boss2": {
+      "Avatar": "SpiderQueen",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "M_KeyLegend": 1
+    },
+    "Ruong1": {
+      "M_KeyEpic": 2
+    },
+    "Ruong2": {
+      "Gem": 130
+    },
+    "Ruong3": {
+      "M_Giap": 40,
+	  "M_Mu" : 40
+    },
+    "Ruong4": {
+      "Gold": 13088
+    }
+  }
+}

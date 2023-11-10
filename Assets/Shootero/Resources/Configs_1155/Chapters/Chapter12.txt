@@ -1,0 +1,94 @@
+{
+  "BaseGold" : 8100,
+  "BaseMaterial" : 17,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [40500, 40500],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 5950,
+	  "Quantity" : [17, 17],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [43, 43],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm12"
+  ],
+  "BossHunt": {
+	"C13Boss1": {
+      "Avatar": "LizardShaman",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C13Boss2": {
+      "Avatar": "Nob",
+      "Reward": {
+        "Gem": 120
+      }
+    },
+    "C13Boss3": {
+      "Avatar": "WildHog",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	 "C13Boss4": {
+      "Avatar": "LichKing",
+      "Reward": {
+        "Gem": 105
+      }
+	 },
+	 "C13Boss5": {
+      "Avatar": "Seraph",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "Gem": 105,
+	"Gold": 32000
+    },
+    "Ruong1": {
+      "M_Giap": 75
+    },
+    "Ruong2": {
+      "Gold": 28000
+    },
+    "Ruong3": {
+      "Gold": 31000
+    },
+    "Ruong4": {
+      "Gem": 90
+    },
+    "Ruong5": {
+      "M_VuKhi": 90
+    }
+  }
+}

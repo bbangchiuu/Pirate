@@ -1,0 +1,84 @@
+{
+  "BaseGold" : 9300,
+  "BaseMaterial" : 18,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 60
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [46500, 46500],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 6300,
+	  "Quantity" : [18, 18],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [45, 45],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm13"
+  ],
+  "BossHunt": {
+	"C14Boss1": {
+      "Avatar": "Drogo",
+      "Reward": {
+        "Gem": 115
+      }
+    },
+	"C14Boss3": {
+      "Avatar": "Treant",
+      "Reward": {
+        "Gem": 120
+      }
+    },
+    "C14Boss2": {
+      "Avatar": "Colossus",
+      "Reward": {
+        "Gem": 105
+      }
+    },
+	 "C14Boss4": {
+      "Avatar": "VampireLord",
+      "Reward": {
+        "Gem": 110
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "M_KeyLegend": 1
+    },
+    "Ruong1": {
+      "Gold": 38000
+    },
+    "Ruong2": {
+      "M_Mu": 103
+    },
+    "Ruong3": {
+      "Gem": 108
+    },
+    "Ruong4": {
+      "Gem": 113
+    }
+  }
+}

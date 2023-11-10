@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: b05319b50075706418b84bc1f88bfff0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Buggy_LV4_0_mesh
+    100002: jnt_all_car
+    100004: jnt_back
+    100006: jnt_body
+    100008: jnt_floor
+    100010: jnt_front
+    100012: jnt_L_back_type
+    100014: jnt_L_front_type
+    100016: jnt_L_window
+    100018: jnt_R_back_type
+    100020: jnt_R_front_type
+    100022: jnt_R_window
+    100024: jnt_root
+    100026: //RootNode
+    400000: Buggy_LV4_0_mesh
+    400002: jnt_all_car
+    400004: jnt_back
+    400006: jnt_body
+    400008: jnt_floor
+    400010: jnt_front
+    400012: jnt_L_back_type
+    400014: jnt_L_front_type
+    400016: jnt_L_window
+    400018: jnt_R_back_type
+    400020: jnt_R_front_type
+    400022: jnt_R_window
+    400024: jnt_root
+    400026: //RootNode
+    4300000: Buggy_LV4_0_mesh
+    7400000: V_Buggy_LV2_idle
+    7400002: V_Buggy_LV2_run
+    9500000: //RootNode
+    13700000: Buggy_LV4_0_mesh
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #37'
+    second: {fileID: 2100000, guid: 76e947b4ca7de7e4d8146f4504be057a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - jnt_root/jnt_all_car/jnt_body/jnt_floor
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: V_Buggy_LV2_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Buggy_LV4_0_mesh
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_all_car
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body/jnt_back
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body/jnt_floor
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body/jnt_front
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body/jnt_L_window
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body/jnt_R_window
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_L_back_type
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_L_front_type
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_R_back_type
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_R_front_type
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: V_Buggy_LV2_run
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Buggy_LV4_0_mesh
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_all_car
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body/jnt_back
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body/jnt_floor
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body/jnt_front
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body/jnt_L_window
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_body/jnt_R_window
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_L_back_type
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_L_front_type
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_R_back_type
+        weight: 1
+      - path: jnt_root/jnt_all_car/jnt_R_front_type
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 1
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.027999999
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

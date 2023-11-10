@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: 959b4971bca23214a8b462bcef76ebdd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: jnt_ball
+    100002: jnt_base
+    100004: jnt_chain_1
+    100006: jnt_chain_2
+    100008: jnt_chain_3
+    100010: jnt_chain_4
+    100012: jnt_chain_5
+    100014: jnt_chain_6
+    100016: jnt_chain_7
+    100018: jnt_chain_8
+    100020: jnt_chain_9
+    100022: jnt_ring
+    100024: jnt_root
+    100026: jnt_top
+    100028: T_Blaze_Lv03_0_mesh1
+    100030: //RootNode
+    400000: jnt_ball
+    400002: jnt_base
+    400004: jnt_chain_1
+    400006: jnt_chain_2
+    400008: jnt_chain_3
+    400010: jnt_chain_4
+    400012: jnt_chain_5
+    400014: jnt_chain_6
+    400016: jnt_chain_7
+    400018: jnt_chain_8
+    400020: jnt_chain_9
+    400022: jnt_ring
+    400024: jnt_root
+    400026: jnt_top
+    400028: T_Blaze_Lv03_0_mesh1
+    400030: //RootNode
+    4300000: T_Blaze_Lv03_0_mesh1
+    7400000: T_Blaze_LV3_idle
+    7400002: T_Blaze_LV3_attack
+    7400004: T_Blaze_LV3_spawn
+    9500000: //RootNode
+    13700000: T_Blaze_Lv03_0_mesh1
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blaze_3
+    second: {fileID: 2100000, guid: 759e84f8598c53449a2dd0aa6d71fe30, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: T_Blaze_LV3_idle
+      takeName: 
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_base
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_ball
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_1
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_1/jnt_chain_2
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_1/jnt_chain_2/jnt_chain_3
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_4
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_4/jnt_chain_5
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_4/jnt_chain_5/jnt_chain_6
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_7
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_7/jnt_chain_8
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_7/jnt_chain_8/jnt_chain_9
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_ring
+        weight: 1
+      - path: T_Blaze_Lv03_0_mesh1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: T_Blaze_LV3_attack
+      takeName: 
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_base
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_ball
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_1
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_1/jnt_chain_2
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_1/jnt_chain_2/jnt_chain_3
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_4
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_4/jnt_chain_5
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_4/jnt_chain_5/jnt_chain_6
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_7
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_7/jnt_chain_8
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_7/jnt_chain_8/jnt_chain_9
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_ring
+        weight: 1
+      - path: T_Blaze_Lv03_0_mesh1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: T_Blaze_LV3_spawn
+      takeName: 
+      firstFrame: 80
+      lastFrame: 104
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: jnt_root
+        weight: 1
+      - path: jnt_root/jnt_base
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_ball
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_1
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_1/jnt_chain_2
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_1/jnt_chain_2/jnt_chain_3
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_4
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_4/jnt_chain_5
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_4/jnt_chain_5/jnt_chain_6
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_7
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_7/jnt_chain_8
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_chain_7/jnt_chain_8/jnt_chain_9
+        weight: 1
+      - path: jnt_root/jnt_base/jnt_top/jnt_ring
+        weight: 1
+      - path: T_Blaze_Lv03_0_mesh1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 3
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.041999996
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 2
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

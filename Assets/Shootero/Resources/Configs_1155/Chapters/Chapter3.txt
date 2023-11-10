@@ -1,0 +1,81 @@
+{
+  "BaseGold" : 2000,
+  "BaseMaterial" : 6,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 50
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [10000, 10000],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 2100,
+	  "Quantity" : [6, 6],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [15, 15],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm3"
+  ],
+  "BossHunt": {
+    "C3Boss1": {
+      "Avatar": "SergeantBoss",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	 "C3Boss2": {
+      "Avatar": "TacticalTruck",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	"C3Boss3": {
+      "Avatar": "Colossus",
+      "Reward": {
+        "Gem": 115
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "MU_GuardHelm": 1
+    },
+    "Ruong1": {
+      "M_Mu": 7
+    },
+    "Ruong2": {
+      "VK_ThiefKnife": 1
+    },
+    "Ruong3": {
+      "OH_Glove": 1
+    },
+    "Ruong4": {
+      "M_VuKhi": 7
+    },
+    "Ruong5": {
+      "Gold": 4000
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "BaseGold": 1000,
+  "BaseMaterial": 0,
+  "SecretShop": [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 50
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [5000, 5000],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 500,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs": [],
+  "BossHunt": {
+    "C1Boss1": {
+      "Avatar": "Seraph",
+      "Reward": {
+        "Gem": 100
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "VK_TrainerGun": 1,
+	  "VK_ScoutDarts" : 1
+    },
+    "Ruong1": {
+      "Gold": 1000
+    },
+    "Ruong2": {
+      "Gem": 50
+    }
+  }
+}

@@ -1,0 +1,538 @@
+fileFormatVersion: 2
+guid: 2a4ce71daf32d4142a1077b85f5b5b58
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: G_Marshall_LV1_0_mesh
+    400000: //RootNode
+    400002: G_Marshall_LV1_0_mesh
+    4300000: G_Marshall_LV1_0_mesh
+    7400000: G_Marshal_LV1_idle
+    7400002: G_Marshal_LV1_run
+    7400004: G_Marshal_LV1_attack
+    9500000: //RootNode
+    13700000: G_Marshall_LV1_0_mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__lv01
+    second: {fileID: 2100000, guid: fad2581967dbc874ab3f19e9468f18f4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: G_Marshal_LV1_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Marshall_jnt_root
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint2
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3/Marshall_jnt_jnt_tail_4
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3/Marshall_jnt_jnt_tail_4/Marshall_jnt_jnt_tail_5
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3/Marshall_jnt_jnt_tail_4/Marshall_jnt_jnt_tail_5/Marshall_jnt_jnt_tail_6
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R/Marshall_jnt_jnt_foot_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R/Marshall_jnt_jnt_foot_R/Marshall_jnt_jnt_toe_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R/Marshall_jnt_jnt_foot_R/Marshall_jnt_jnt_toe_R/Marshall_jnt_jnt_toe_nub_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L/Marshall_jnt_jnt_foot_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L/Marshall_jnt_jnt_foot_L/Marshall_jnt_jnt_toe_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L/Marshall_jnt_jnt_foot_L/Marshall_jnt_jnt_toe_L/Marshall_jnt_jnt_toe_nub_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R/Marshall_jnt_jnt_hand_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R/Marshall_jnt_jnt_hand_R/Marshall_jnt_jnt_finger_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R/Marshall_jnt_jnt_hand_R/Marshall_jnt_jnt_finger_R/Marshall_jnt_jnt_nub_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_foreArm_tiwst_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_foreArm_tiwst_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head/jnt_headEnd
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L/Marshall_jnt_jnt_hand_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L/Marshall_jnt_jnt_hand_L/Marshall_jnt_jnt_finger_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L/Marshall_jnt_jnt_hand_L/Marshall_jnt_jnt_finger_L/Marshall_jnt_jnt_nub_L
+        weight: 1
+      - path: G_Marshall_LV1_0_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: G_Marshal_LV1_run
+      takeName: Take 001
+      firstFrame: 44
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Marshall_jnt_root
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint2
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3/Marshall_jnt_jnt_tail_4
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3/Marshall_jnt_jnt_tail_4/Marshall_jnt_jnt_tail_5
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3/Marshall_jnt_jnt_tail_4/Marshall_jnt_jnt_tail_5/Marshall_jnt_jnt_tail_6
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R/Marshall_jnt_jnt_foot_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R/Marshall_jnt_jnt_foot_R/Marshall_jnt_jnt_toe_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R/Marshall_jnt_jnt_foot_R/Marshall_jnt_jnt_toe_R/Marshall_jnt_jnt_toe_nub_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L/Marshall_jnt_jnt_foot_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L/Marshall_jnt_jnt_foot_L/Marshall_jnt_jnt_toe_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L/Marshall_jnt_jnt_foot_L/Marshall_jnt_jnt_toe_L/Marshall_jnt_jnt_toe_nub_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R/Marshall_jnt_jnt_hand_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R/Marshall_jnt_jnt_hand_R/Marshall_jnt_jnt_finger_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R/Marshall_jnt_jnt_hand_R/Marshall_jnt_jnt_finger_R/Marshall_jnt_jnt_nub_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_foreArm_tiwst_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_foreArm_tiwst_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head/jnt_headEnd
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L/Marshall_jnt_jnt_hand_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L/Marshall_jnt_jnt_hand_L/Marshall_jnt_jnt_finger_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L/Marshall_jnt_jnt_hand_L/Marshall_jnt_jnt_finger_L/Marshall_jnt_jnt_nub_L
+        weight: 1
+      - path: G_Marshall_LV1_0_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: G_Marshal_LV1_attack
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Marshall_jnt_root
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint2
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3/Marshall_jnt_jnt_tail_4
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3/Marshall_jnt_jnt_tail_4/Marshall_jnt_jnt_tail_5
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_tail_1/Marshall_jnt_jnt_tail_2/Marshall_jnt_jnt_tail_3/Marshall_jnt_jnt_tail_4/Marshall_jnt_jnt_tail_5/Marshall_jnt_jnt_tail_6
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R/Marshall_jnt_jnt_foot_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R/Marshall_jnt_jnt_foot_R/Marshall_jnt_jnt_toe_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_R/Marshall_jnt_jnt_leg_R/Marshall_jnt_jnt_foot_R/Marshall_jnt_jnt_toe_R/Marshall_jnt_jnt_toe_nub_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L/Marshall_jnt_jnt_foot_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L/Marshall_jnt_jnt_foot_L/Marshall_jnt_jnt_toe_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_hip/Marshall_jnt_jnt_thing_L/Marshall_jnt_jnt_leg_L/Marshall_jnt_jnt_foot_L/Marshall_jnt_jnt_toe_L/Marshall_jnt_jnt_toe_nub_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R/Marshall_jnt_jnt_hand_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R/Marshall_jnt_jnt_hand_R/Marshall_jnt_jnt_finger_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_R/Marshall_jnt_jnt_shoulder_R/Marshall_jnt_jnt_arm_R/Marshall_jnt_jnt_hand_R/Marshall_jnt_jnt_finger_R/Marshall_jnt_jnt_nub_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_hand_L/jnt_mid_1_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_L/jnt_shoulder_L/jnt_elbow_L/jnt_foreArm_tiwst_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_hand_R/jnt_mid_1_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_clavicle_R/jnt_shoulder_R/jnt_elbow_R/jnt_foreArm_tiwst_R
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_neck_1/jnt_spine_1/jnt_spine_2/jnt_spine_3/jnt_spine_4/jnt_spine_5/jnt_neck/jnt_head/jnt_headEnd
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L/Marshall_jnt_jnt_hand_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L/Marshall_jnt_jnt_hand_L/Marshall_jnt_jnt_finger_L
+        weight: 1
+      - path: Marshall_jnt_root/Marshall_jnt_joint9/Marshall_jnt_jnt_body/Marshall_jnt_jnt_spine/Marshall_jnt_jnt_chest/Marshall_jnt_jnt_clavie_L/Marshall_jnt_jnt_shoulder_L/Marshall_jnt_jnt_arm_L/Marshall_jnt_jnt_hand_L/Marshall_jnt_jnt_finger_L/Marshall_jnt_jnt_nub_L
+        weight: 1
+      - path: G_Marshall_LV1_0_mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 5
+    meshCompression: 1
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.049999997
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,93 @@
+{
+  "BaseGold" : 3500,
+  "BaseMaterial" : 11,
+  "SecretShop" : [
+    {
+      "Res" : "Gem",
+	  "Price" : 380,
+	  "Quantity" : [1, 1],
+	  "Items" : ["M_KeyLegend"],
+      "Discount" : [10, 25],
+	  "Rate" : 50
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 100,
+	  "Quantity" : [17500, 17500],
+	  "Items" : ["Gold"],
+      "Discount" : [10, 25],
+	  "Rate" : 30
+    },
+	{
+      "Res" : "Gold",
+	  "Price" : 3850,
+	  "Quantity" : [11, 11],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    },
+	{
+      "Res" : "Gem",
+	  "Price" : 50,
+	  "Quantity" : [28, 28],
+	  "Items" : ["M_VuKhi","M_Mu","M_Giap","M_OffHand" ],
+      "Discount" : [10, 25],
+	  "Rate" : 100
+    }
+  ],
+  "FarmCfgs" : [
+    "Farm6"
+  ],
+  "BossHunt": {
+    "C6Boss1": {
+      "Avatar": "Seraph",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	 "C6Boss2": {
+      "Avatar": "BruteBoss",
+      "Reward": {
+        "Gem": 100
+      }
+    },
+	"C6Boss3": {
+      "Avatar": "SergeantBoss",
+      "Reward": {
+        "Gem": 105
+      }
+    },
+	"C6Boss4": {
+      "Avatar": "GunShip",
+      "Reward": {
+        "Gem": 105
+      }
+    },
+	"C6Boss5": {
+      "Avatar": "Monk",
+      "Reward": {
+        "Gem": 120
+      }
+    }
+  },
+  "Chests": {
+    "FinalBoss": {
+      "OH_Lamp": 1
+    },
+    "Ruong1": {
+      "Gem": 100
+    },
+    "Ruong2": {
+      "M_Mu": 25
+    },
+    "Ruong3": {
+      "Gold": 7800
+    },
+    "Ruong4": {
+      "M_KeyEpic": 1
+    },
+    "Ruong5": {
+      "M_OffHand": 25
+    }
+  }
+}
